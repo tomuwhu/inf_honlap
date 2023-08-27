@@ -2,8 +2,6 @@
 
 ## Dr. Németh Tamás
 
-<Nevjegy />
-
 ### Szakmai tagságok
 
 - [CENTRAL-EUROPEAN JOURNAL OF NEW TECHNOLOGIES IN<br>RESEARCH, EDUCATION AND PRACTICE - International Editorial Board](http://ojs.elte.hu/cejntrep/about/editorialTeam)

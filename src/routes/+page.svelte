@@ -1,7 +1,7 @@
 <script>
 	// @ts-nocheck
 	import { base } from '$app/paths'
-	import { Code, Tabs, Space, Title, Box, Button, Group, NativeSelect } from '@svelteuidev/core'
+	import { Code, Tabs, Space, Box, Text, Group, NativeSelect } from '@svelteuidev/core'
 	import { onMount } from 'svelte'
 	import axios from 'axios'
 	import Md from 'markdown-it'
@@ -34,48 +34,47 @@
 		['pmsz', 'Programozási versenyek feladatainak megoldása'],
 		['szmt1', 'Szakmódszertan 1'],
 		['sztai', '1. Számítástechnikai alapismeretek'],
-		['szgr', 'Számítógépes rendszerek']
+		['szgr', 'Számítógépes rendszerek'],
+		['test', 'Teszt']
 	]
 	var ns = 'algo'
 	const fx = (e) => axios.get(`${base}/targyak/${ns}.md`).then((v) => (text = v.data))
 	const getcv = (e) =>
 		['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
 	const boxcss = {
-    fontSize: '12px',
-		backgroundColor: '#2b2b2b',
+		fontSize: '12px',
+		backgroundColor: '#193944',
 		color: '#f8f8f2',
 		padding: '20px',
 		paddingTop: '4px',
 		margin: '10px',
-		borderRadius: '15px',
-		boxShadow: '1px 1px 3px black'
+		borderRadius: '8px',
+		boxShadow: '1px 1px 3px black',
+		border: 'solid 10px yellow'
 	}
 </script>
 
 {#if appdata.mounted}
 	<Tabs>
 		<Tabs.Tab label="Oktatás">
-			<Space h={10} />
-			<Title align="center">Oktatott tárgyak</Title>
-			<Space h={10} />
-			<Group position="center">
-				<NativeSelect
-					data={targylist.map((v) => ({ label: v[1], value: v[0] }))}
-					bind:value={ns}
-					radius="md"
-					size="xs"
-					on:change={fx}
-				/>
-			</Group>
 			<Box css={boxcss}>
+				<Space h="lg" />
+				<Group>
+					<Text css={{ color: '#def6f4' }}>Oktatott tárgyak:</Text>
+					<NativeSelect
+						data={targylist.map((v) => ({ label: v[1], value: v[0] }))}
+						bind:value={ns}
+						radius="md"
+						size="xs"
+						on:change={fx}
+					/>
+				</Group>
 				<Code>
 					{@html md.render(text)}
 				</Code>
 			</Box>
 		</Tabs.Tab>
 		<Tabs.Tab label="Kutatás">
-			<Space h={30} />
-			<Title align="center">Publikációs lista</Title>
 			<Box css={boxcss}>
 				<Code>
 					{@html md.render(cv.pl)}
@@ -83,8 +82,6 @@
 			</Box>
 		</Tabs.Tab>
 		<Tabs.Tab label="CV">
-			<Space h={30} />
-			<Title align="center">Curriculum Vitae</Title>
 			<Box css={boxcss}>
 				<Code>
 					{@html md.render(cv.cv)}
