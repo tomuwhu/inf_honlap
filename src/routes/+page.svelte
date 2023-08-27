@@ -38,8 +38,16 @@
 	]
 	var ns = 'algo'
 	const fx = (e) => axios.get(`${base}/targyak/${ns}.md`).then((v) => (text = v.data))
-	const getcv = (e) => {
-		;['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
+	const getcv = (e) =>
+		['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
+	const boxcss = {
+		backgroundColor: '#2b2b2b',
+		color: '#f8f8f2',
+		padding: '20px',
+		paddingTop: '4px',
+		margin: '10px',
+		borderRadius: '15px',
+		boxShadow: '1px 1px 3px black'
 	}
 </script>
 
@@ -58,17 +66,7 @@
 					on:change={fx}
 				/>
 			</Group>
-			<Box
-				css={{
-					backgroundColor: '#2b2b2b',
-					color: '#f8f8f2',
-					padding: '20px',
-					paddingTop: '4px',
-					margin: '10px',
-					borderRadius: '15px',
-					boxShadow: '1px 1px 3px black'
-				}}
-			>
+			<Box css={boxcss}>
 				<Code>
 					{@html md.render(text)}
 				</Code>
@@ -77,17 +75,7 @@
 		<Tabs.Tab label="Kutatás">
 			<Space h={30} />
 			<Title align="center">Publikációs lista</Title>
-			<Box
-				css={{
-					backgroundColor: '#2b2b2b',
-					color: '#f8f8f2',
-					padding: '20px',
-					paddingTop: '4px',
-					margin: '10px',
-					borderRadius: '15px',
-					boxShadow: '1px 1px 3px black'
-				}}
-			>
+			<Box css={boxcss}>
 				<Code>
 					{@html md.render(cv.pl)}
 				</Code>
@@ -96,17 +84,7 @@
 		<Tabs.Tab label="CV">
 			<Space h={30} />
 			<Title align="center">Curriculum Vitae</Title>
-			<Box
-				css={{
-					backgroundColor: '#2b2b2b',
-					color: '#f8f8f2',
-					padding: '20px',
-					paddingTop: '4px',
-					margin: '10px',
-					borderRadius: '15px',
-					boxShadow: '1px 1px 3px black'
-				}}
-			>
+			<Box css={boxcss}>
 				<Code>
 					{@html md.render(cv.cv)}
 				</Code>
