@@ -41,6 +41,7 @@
 	const getcv = (e) =>
 		['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
 	const boxcss = {
+    fontSize: '12px',
 		backgroundColor: '#2b2b2b',
 		color: '#f8f8f2',
 		padding: '20px',
