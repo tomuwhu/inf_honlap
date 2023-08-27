@@ -14,11 +14,15 @@
 	onMount(() => {
 		appdata.mounted = true
 		setTimeout(() => {
-			document.getElementsByClassName('svelteui-Code-root')[0].style.all = 'unset'
+			Array.from(document.getElementsByClassName('svelteui-Code-root')).map(
+				(v) => (v.style.all = 'unset')
+			)
 			fx('')
+			getcv('')
 		})
 	})
-	var text = ``
+	var text = ``,
+		cv = { cv: '', pl: '' }
 	const targylist = [
 		['algo', 'Algoritmizálás'],
 		['eli1', 'Elemi Informatika 1'],
@@ -34,6 +38,9 @@
 	]
 	var ns = 'algo'
 	const fx = (e) => axios.get(`${base}/targyak/${ns}.md`).then((v) => (text = v.data))
+	const getcv = (e) => {
+		;['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
+	}
 </script>
 
 {#if appdata.mounted}
@@ -69,11 +76,41 @@
 		</Tabs.Tab>
 		<Tabs.Tab label="Kutatás">
 			<Space h={30} />
-			<Title>Publikációs lista</Title>
+			<Title align="center">Publikációs lista</Title>
+			<Box
+				css={{
+					backgroundColor: '#2b2b2b',
+					color: '#f8f8f2',
+					padding: '20px',
+					paddingTop: '4px',
+					margin: '10px',
+					borderRadius: '15px',
+					boxShadow: '1px 1px 3px black'
+				}}
+			>
+				<Code>
+					{@html md.render(cv.pl)}
+				</Code>
+			</Box>
 		</Tabs.Tab>
 		<Tabs.Tab label="CV">
 			<Space h={30} />
-			<Title>Curriculum Vitae</Title>
+			<Title align="center">Curriculum Vitae</Title>
+			<Box
+				css={{
+					backgroundColor: '#2b2b2b',
+					color: '#f8f8f2',
+					padding: '20px',
+					paddingTop: '4px',
+					margin: '10px',
+					borderRadius: '15px',
+					boxShadow: '1px 1px 3px black'
+				}}
+			>
+				<Code>
+					{@html md.render(cv.cv)}
+				</Code>
+			</Box>
 		</Tabs.Tab>
 	</Tabs>
 {/if}
