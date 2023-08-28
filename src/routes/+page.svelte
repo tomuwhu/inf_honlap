@@ -1,7 +1,7 @@
 <script>
 	// @ts-nocheck
 	import { base } from '$app/paths'
-	import { Code, Tabs, Space, Box, Text, Group, NativeSelect } from '@svelteuidev/core'
+	import { Title, Code, Tabs, Space, Box, Text, Group, NativeSelect } from '@svelteuidev/core'
 	import { onMount } from 'svelte'
 	import axios from 'axios'
 	import Md from 'markdown-it'
@@ -56,6 +56,15 @@
 
 {#if appdata.mounted}
 	<Tabs>
+		<Tabs.Tab label="Kezdőlap">
+			<Box css={{ margin: '20px' }}>
+				<Title>Dr. Németh Tamás</Title>
+				<Space h="lg" />
+				<Text>egyetemi adjunktus - SZTE TTIK</Text>
+				<Space h="lg" />
+				<Text>Árpád tér 2. 42-es szoba. Tel.: +36 (62) 343-435</Text>
+			</Box>
+		</Tabs.Tab>
 		<Tabs.Tab label="Oktatás">
 			<Box css={boxcss}>
 				<Space h="lg" />
