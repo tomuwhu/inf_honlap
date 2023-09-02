@@ -1,12 +1,10 @@
 # Intelligens felhasználói interfészek
 
-[[toc]]
-
 ## Előismereti feltételek
 
 - HTML, CSS ismerete
 - [JavaScript (...ES2018) alkalmazása](https://developer.mozilla.org/hu/docs/Web/JavaScript)
-- SQL nyelv és relációs adatbázisok tervezésének ismerete 
+- SQL nyelv és relációs adatbázisok tervezésének ismerete
 
 ## Tematika
 
