@@ -44,20 +44,10 @@
 	const fx = (e) => axios.get(`${base}/targyak/${ns}.md`).then((v) => (text = v.data))
 	const getcv = (e) =>
 		['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
-	/*const boxcss = {
-		fontSize: '12px',
-		backgroundColor: '#002729',
-		color: '#f8f8f2',
-		padding: '20px',
-		paddingTop: '4px',
-		margin: '10px',
-		borderRadius: '8px',
-		boxShadow: '1px 1px 3px black',
-		border: 'solid 10px #66aaaa'
-	}*/
 	const boxcss = {
 		fontSize: '12px',
 		paddingLeft: '30px',
+		paddingRight: '10px',
 		paddingTop: '0px',
 		margin: '10px',
 		lineHeight: '135%'
