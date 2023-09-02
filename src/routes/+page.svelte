@@ -57,11 +57,11 @@
 {#if appdata.mounted}
 	<Tabs>
 		<Tabs.Tab label="Kezdőlap">
-			<Box css={{ marginLeft: '30px', marginTop: '10px' }}>
+			<Box css={{ marginLeft: '30px', marginRight: '10px', marginTop: '10px' }}>
 				<Title css={{ fontSize: '24px' }}>Dr. Németh Tamás</Title>
 				<Text css={{ fontSize: '13px', color: 'gray' }}>egyetemi adjunktus - SZTE TTIK</Text>
 				<Space h="lg" />
-				<Text>Árpád tér 2. 42-es szoba. Tel.: +36 (62) 343-435</Text>
+				<Text>Árpád tér 2. 42-es szoba. <nobr>Tel.: +36 (62) 343-435</nobr></Text>
 			</Box>
 		</Tabs.Tab>
 		<Tabs.Tab label="Oktatás">
