@@ -63,6 +63,7 @@
 		margin: '10px',
 		lineHeight: '135%'
 	}
+	var c
 </script>
 
 {#if appdata.mounted}
@@ -94,7 +95,7 @@
 							on:change={fx}
 						/>
 					</Group>
-					<Code>
+					<Code block>
 						{@html md.render(text)}
 					</Code>
 				</Box>
@@ -103,7 +104,7 @@
 		<Tabs.Tab label="Kutatás">
 			<Text>
 				<Box css={boxcss}>
-					<Code>
+					<Code block>
 						{@html md.render(cv.pl)}
 					</Code>
 				</Box>
@@ -112,7 +113,7 @@
 		<Tabs.Tab label="CV">
 			<Text>
 				<Box css={boxcss}>
-					<Code>
+					<Code block>
 						{@html md.render(cv.cv)}
 					</Code>
 				</Box>
