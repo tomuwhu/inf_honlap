@@ -1,7 +1,18 @@
 <script>
 	// @ts-nocheck
 	import { base } from '$app/paths'
-	import { Title, Code, Tabs, Space, Box, Text, Group, NativeSelect } from '@svelteuidev/core'
+	import {
+		Image,
+		Flex,
+		Title,
+		Code,
+		Tabs,
+		Space,
+		Box,
+		Text,
+		Group,
+		NativeSelect
+	} from '@svelteuidev/core'
 	import { onMount } from 'svelte'
 	import axios from 'axios'
 	import Md from 'markdown-it'
@@ -57,12 +68,17 @@
 {#if appdata.mounted}
 	<Tabs>
 		<Tabs.Tab label="Kezdőlap">
-			<Box css={{ marginLeft: '30px', marginRight: '10px', marginTop: '10px' }}>
-				<Title css={{ fontSize: '24px' }}>Dr. Németh Tamás</Title>
-				<Text css={{ fontSize: '13px', color: 'gray' }}>egyetemi adjunktus - SZTE TTIK</Text>
-				<Space h="lg" />
-				<Text>Árpád tér 2. 42-es szoba. <nobr>Tel.: +36 (62) 343-435</nobr></Text>
-			</Box>
+			<Flex>
+				<Box css={{ marginLeft: '30px', marginRight: '10px', marginTop: '10px' }}>
+					<Image width={200} radius="md" src="{base}/myface.jpg" alt="Random unsplash image" />
+				</Box>
+				<Box css={{ marginLeft: '30px', marginRight: '10px', marginTop: '30px' }}>
+					<Title css={{ fontSize: '24px' }}>Dr. Németh Tamás</Title>
+					<Text css={{ fontSize: '13px', color: 'gray' }}>egyetemi adjunktus - SZTE TTIK</Text>
+					<Space h="lg" />
+					<Text>Árpád tér 2. 42-es szoba. <nobr>Tel.: +36 (62) 343-435</nobr></Text>
+				</Box>
+			</Flex>
 		</Tabs.Tab>
 		<Tabs.Tab label="Oktatás">
 			<Text>
