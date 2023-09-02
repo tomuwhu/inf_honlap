@@ -1,10 +1,13 @@
 body {
     margin: 0px;
-    background-color: rgb(255, 255, 255);
 }
 a {
-    color: rgb(218, 200, 200);
+    color: rgb(50, 122, 142);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(34, 93, 110);
 }
 a:hover {
-    color: rgb(182, 146, 146);
+    color: rgb(74, 174, 202);
 }

@@ -7,7 +7,10 @@
 	import Md from 'markdown-it'
 	import mathjax3 from 'markdown-it-mathjax3'
 	import mhl from 'markdown-it-highlightjs'
-	const md = new Md()
+	const md = new Md({
+		html: true,
+		breaks: true
+	})
 	md.use(mathjax3)
 	md.use(mhl, { auto: true })
 	const appdata = { mounted: false }
@@ -41,61 +44,73 @@
 	const fx = (e) => axios.get(`${base}/targyak/${ns}.md`).then((v) => (text = v.data))
 	const getcv = (e) =>
 		['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
-	const boxcss = {
+	/*const boxcss = {
 		fontSize: '12px',
-		backgroundColor: '#193944',
+		backgroundColor: '#002729',
 		color: '#f8f8f2',
 		padding: '20px',
 		paddingTop: '4px',
 		margin: '10px',
 		borderRadius: '8px',
 		boxShadow: '1px 1px 3px black',
-		border: 'solid 10px yellow'
+		border: 'solid 10px #66aaaa'
+	}*/
+	const boxcss = {
+		fontSize: '12px',
+		paddingLeft: '30px',
+		paddingTop: '0px',
+		margin: '10px',
+		lineHeight: '135%'
 	}
 </script>
 
 {#if appdata.mounted}
 	<Tabs>
 		<Tabs.Tab label="Kezdőlap">
-			<Box css={{ margin: '20px' }}>
-				<Title>Dr. Németh Tamás</Title>
-				<Space h="lg" />
-				<Text>egyetemi adjunktus - SZTE TTIK</Text>
+			<Box css={{ marginLeft: '30px', marginTop: '10px' }}>
+				<Title css={{ fontSize: '24px' }}>Dr. Németh Tamás</Title>
+				<Text css={{ fontSize: '13px', color: 'gray' }}>egyetemi adjunktus - SZTE TTIK</Text>
 				<Space h="lg" />
 				<Text>Árpád tér 2. 42-es szoba. Tel.: +36 (62) 343-435</Text>
 			</Box>
 		</Tabs.Tab>
 		<Tabs.Tab label="Oktatás">
-			<Box css={boxcss}>
-				<Space h="lg" />
-				<Group>
-					<Text css={{ color: '#def6f4' }}>Oktatott tárgyak:</Text>
-					<NativeSelect
-						data={targylist.map((v) => ({ label: v[1], value: v[0] }))}
-						bind:value={ns}
-						radius="md"
-						size="xs"
-						on:change={fx}
-					/>
-				</Group>
-				<Code>
-					{@html md.render(text)}
-				</Code>
-			</Box>
+			<Text>
+				<Box css={boxcss}>
+					<Space h="lg" />
+					<Group>
+						<Text css={{ color: '#1e2634' }}>Oktatott tárgyak:</Text>
+						<NativeSelect
+							data={targylist.map((v) => ({ label: v[1], value: v[0] }))}
+							bind:value={ns}
+							radius="md"
+							size="xs"
+							on:change={fx}
+						/>
+					</Group>
+					<Code>
+						{@html md.render(text)}
+					</Code>
+				</Box>
+			</Text>
 		</Tabs.Tab>
 		<Tabs.Tab label="Kutatás">
-			<Box css={boxcss}>
-				<Code>
-					{@html md.render(cv.pl)}
-				</Code>
-			</Box>
+			<Text>
+				<Box css={boxcss}>
+					<Code>
+						{@html md.render(cv.pl)}
+					</Code>
+				</Box>
+			</Text>
 		</Tabs.Tab>
 		<Tabs.Tab label="CV">
-			<Box css={boxcss}>
-				<Code>
-					{@html md.render(cv.cv)}
-				</Code>
-			</Box>
+			<Text>
+				<Box css={boxcss}>
+					<Code>
+						{@html md.render(cv.cv)}
+					</Code>
+				</Box>
+			</Text>
 		</Tabs.Tab>
 	</Tabs>
 {/if}

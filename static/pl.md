@@ -1,8 +1,6 @@
 # Publikációs lista
 
-[Google Scholar](https://scholar.google.hu/citations?user=LJqnw1sAAAAJ&hl=hu) - -
-[RG](https://www.researchgate.net/profile/Tamas_Nemeth8) - -
-[MTMT](https://m2.mtmt.hu/api/publication?groupBy=publishedYear&cond=authors%3Bin%3B10028510&cond=category.mtid%3Beq%3B1&ty_on=1&ty_on_check=1&st_on=1&st_on_check=1&url_on=1&url_on_check=1&cite_type=2&sort=publishedYear%2Cdesc&sort=firstAuthor%2Casc&size=20)
+[Google Scholar](https://scholar.google.hu/citations?user=LJqnw1sAAAAJ&hl=hu) --- [ResearchGate](https://www.researchgate.net/profile/Tamas_Nemeth8) --- [Magyar Tudományos Művek Tára](https://m2.mtmt.hu/api/publication?groupBy=publishedYear&cond=authors%3Bin%3B10028510&cond=category.mtid%3Beq%3B1&ty_on=1&ty_on_check=1&st_on=1&st_on_check=1&url_on=1&url_on_check=1&cite_type=2&sort=publishedYear%2Cdesc&sort=firstAuthor%2Casc&size=20)
 
 - [21] *Sándor Balázs Domonkos, Németh Tamás*:
 **Use data mining methods in quality measurement in the education systems**
