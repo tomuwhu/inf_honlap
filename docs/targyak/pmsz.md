@@ -1,4 +1,4 @@
-# Problémamegoldó szeminárium
+# Programozási versenyek feladatainak megoldása
 
 (Informatikatanár szak)
 
