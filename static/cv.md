@@ -24,8 +24,8 @@
 ### Szakmai tapasztalat
 
 - Szegedi Tudományegyetem
-  - [*Informatikai Intézet*](http://www.inf.u-szeged.hu/)
-    - *egyetemi adjunktus (2015.01.01-től jelenleg)*
+  - [**Informatikai Intézet**](http://www.inf.u-szeged.hu/)
+    - **egyetemi adjunktus (2015.01.01-től jelenleg)**
     - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
     - tanársegéd (2011.01.01. - 2014.12.31.)
     - óraadó (2008.09.01. - 2010.12.31.)
@@ -45,7 +45,7 @@
 - [Pannon Egyetem, Veszprém](https://uni-pannon.hu/)
   - tudományos munkatárs részmunkaidő (2016-2017.)
   - gráfelméleti kutatások
-- [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/)
+- [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/) _Kutatóintézet_
   - Am Wolfsmantel 33, 91058 Erlangen - Németország
   - tudományos munkatárs (2009.)
   - online klaszterezés [RTLS rendszer](http://publicatio.bibl.u-szeged.hu/5748/1/info51_1_u.pdf)
