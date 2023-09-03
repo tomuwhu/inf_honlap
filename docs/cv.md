@@ -7,7 +7,7 @@
 - [CENTRAL-EUROPEAN JOURNAL OF NEW TECHNOLOGIES IN RESEARCH, EDUCATION AND PRACTICE - International Editorial Board](http://ojs.elte.hu/cejntrep/about/editorialTeam)
 - [ACM Europe Council - Hungarian ACM Chapter](https://europe.acm.org/chapters)
 - [Magyar Operációkutatási Társaság](http://www.mot.org.hu/tarsasag/tagsag)
-- [MTA Köztestület](https://mta.hu/koztestuleti_tagok?PersonId=10048135)
+- [Magyar Tudományos Akadémia Köztestülete](https://mta.hu/koztestuleti_tagok?PersonId=10048135)
   - Informatika- és Számítástudományi Bizottság
   - Szegedi Területi Bizottság
   - Informatikai Munkabizottság (szavazati jogú tag)
@@ -23,9 +23,9 @@
 
 ### Szakmai tapasztalat
 
-- Szegedi Tudományegyetem
-  - [*Informatikai Intézet*](http://www.inf.u-szeged.hu/)
-    - *egyetemi adjunktus (2015.01.01-től jelenleg)*
+- [Szegedi Tudományegyetem](https://u-szeged.hu/)
+  - [**Informatikai Intézet**](http://www.inf.u-szeged.hu/)
+    - **egyetemi adjunktus (2015.01.01-től jelenleg)**
     - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
     - tanársegéd (2011.01.01. - 2014.12.31.)
     - óraadó (2008.09.01. - 2010.12.31.)
@@ -45,7 +45,7 @@
 - [Pannon Egyetem, Veszprém](https://uni-pannon.hu/)
   - tudományos munkatárs részmunkaidő (2016-2017.)
   - gráfelméleti kutatások
-- [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/)
+- [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/) _Kutatóintézet_
   - Am Wolfsmantel 33, 91058 Erlangen - Németország
   - tudományos munkatárs (2009.)
   - online klaszterezés [RTLS rendszer](http://publicatio.bibl.u-szeged.hu/5748/1/info51_1_u.pdf)
@@ -63,7 +63,7 @@
 - Emberi Erőforrás Fejlesztési Operatív Program (2011-től jelenleg)
 - [Új Nemzeti Kiválóság Program ösztöndíj (2019-2020)](http://www.unkp.gov.hu/unkp-rol)
 - Makovecz ösztöndíjak
-  - 2022.: [Kolozsvári Egyetem](https://www.ubbcluj.ro/hu/facultati/matematica_informatica)
+  - 2022.: [Babeș–Bolyai Tudományegyetem](https://www.ubbcluj.ro/hu/facultati/matematica_informatica)
   - 2017.: [Szabadkai Műszaki Szakfőiskola](https://www.vts.su.ac.rs/hu)
 - Az SZTE TTIK Aranykréta-díja (2017/2018. tanév)
 - Nemzeti Tehetségprogram Pályázatok (2015., 2016., 2017.)
@@ -73,7 +73,7 @@
 ### Végzettségek
 
 - [Szegedi Tudományegyetem - Természettudományi és Informatikai Kar](http://www.sci.u-szeged.hu/)
-  - Informatika PhD. (2014.)
+  - PhD. Matematikai Tudományok (2015.)
   - SZTE Informatika Doktori Program (2009-2010.)
   - Matematika és Számítástudomány Doktori Program (2007-2008.)
   - Okleveles Informatika Szakos Tanár (2006.)
