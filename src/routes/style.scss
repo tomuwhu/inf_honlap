@@ -11,8 +11,13 @@ a:visited {
 a:hover {
     color: rgb(74, 174, 202);
 }
-code.svelteui-Code-root h1 {
-    line-height: 110%; 
+pre.svelteui-Code-root {
+    code {
+        h1 {
+            line-height: 110%;
+            color: rgb(29, 84, 100);
+        }
+    }
 }
 pre {
     background-color: #193944;
