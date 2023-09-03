@@ -7,7 +7,7 @@
 - [CENTRAL-EUROPEAN JOURNAL OF NEW TECHNOLOGIES IN RESEARCH, EDUCATION AND PRACTICE - International Editorial Board](http://ojs.elte.hu/cejntrep/about/editorialTeam)
 - [ACM Europe Council - Hungarian ACM Chapter](https://europe.acm.org/chapters)
 - [Magyar Operációkutatási Társaság](http://www.mot.org.hu/tarsasag/tagsag)
-- [MTA Köztestület](https://mta.hu/koztestuleti_tagok?PersonId=10048135)
+- [Magyar Tudományos Akadémia Köztestülete](https://mta.hu/koztestuleti_tagok?PersonId=10048135)
   - Informatika- és Számítástudományi Bizottság
   - Szegedi Területi Bizottság
   - Informatikai Munkabizottság (szavazati jogú tag)
@@ -73,7 +73,7 @@
 ### Végzettségek
 
 - [Szegedi Tudományegyetem - Természettudományi és Informatikai Kar](http://www.sci.u-szeged.hu/)
-  - Informatika PhD. (2014.)
+  - PhD. Matematikai Tudományok (2014.)
   - SZTE Informatika Doktori Program (2009-2010.)
   - Matematika és Számítástudomány Doktori Program (2007-2008.)
   - Okleveles Informatika Szakos Tanár (2006.)
