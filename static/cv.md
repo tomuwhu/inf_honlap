@@ -23,7 +23,7 @@
 
 ### Szakmai tapasztalat
 
-- Szegedi Tudományegyetem
+- [Szegedi Tudományegyetem](https://u-szeged.hu/)
   - [**Informatikai Intézet**](http://www.inf.u-szeged.hu/)
     - **egyetemi adjunktus (2015.01.01-től jelenleg)**
     - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
@@ -63,7 +63,7 @@
 - Emberi Erőforrás Fejlesztési Operatív Program (2011-től jelenleg)
 - [Új Nemzeti Kiválóság Program ösztöndíj (2019-2020)](http://www.unkp.gov.hu/unkp-rol)
 - Makovecz ösztöndíjak
-  - 2022.: [Kolozsvári Egyetem](https://www.ubbcluj.ro/hu/facultati/matematica_informatica)
+  - 2022.: [Babeș–Bolyai Tudományegyetem](https://www.ubbcluj.ro/hu/facultati/matematica_informatica)
   - 2017.: [Szabadkai Műszaki Szakfőiskola](https://www.vts.su.ac.rs/hu)
 - Az SZTE TTIK Aranykréta-díja (2017/2018. tanév)
 - Nemzeti Tehetségprogram Pályázatok (2015., 2016., 2017.)
