@@ -73,7 +73,7 @@
 ### Végzettségek
 
 - [Szegedi Tudományegyetem - Természettudományi és Informatikai Kar](http://www.sci.u-szeged.hu/)
-  - PhD. Matematikai Tudományok (2014.)
+  - PhD. Matematikai Tudományok (2015.)
   - SZTE Informatika Doktori Program (2009-2010.)
   - Matematika és Számítástudomány Doktori Program (2007-2008.)
   - Okleveles Informatika Szakos Tanár (2006.)
