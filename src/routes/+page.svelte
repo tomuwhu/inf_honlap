@@ -47,9 +47,8 @@
 		['otir', 'Oktatást Támogató Informatikai Rendszerek'],
 		['pmsz', 'Programozási versenyek feladatainak megoldása'],
 		['szmt1', 'Szakmódszertan 1'],
-		['sztai', '1. Számítástechnikai alapismeretek'],
-		['szgr', 'Számítógépes rendszerek'],
-		['test', 'Teszt']
+		['sztai', 'Számítástechnikai alapismeretek'],
+		['szgr', 'Számítógépes rendszerek']
 	]
 	var ns = 'algo'
 	const fx = (e) => axios.get(`${base}/targyak/${ns}.md`).then((v) => (text = v.data))
