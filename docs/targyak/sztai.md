@@ -34,7 +34,19 @@
 - Hang digitalizálása, hangformátumok
 - Video formátumok + multi formátumok
 
-### 1.4. Informatikai alkalmazások
+### 1.4. Digitális tartalmak létrehozása
+
+- Szövegszerkesztés célszoftverrel
+- Tábázatkezelés célszoftverrel
+- Diagramtípusok, grafikonok készítése
+- Animáció-készítés  célszoftverrel
+- Prezentáció-készítés célszoftverrel
+- Képszerkesztés, grafikai programok használata
+- Zene-szerkesztés célszoftverrel
+- Film-vágás célszoftverrel
+- Interaktív tartalmak létrehozása célszoftverekkel
+
+### 1.5. Informatikai alkalmazások
 
 - Program futtatása, grafikus ablak felépítése, felhasználói intefész elemei, kezelésük
 - Internetes alkalmazások:
@@ -57,34 +69,10 @@
   - Collaboration Hubs ( SLACK, ... )
 - Kódszerkesztő programok (Visual Studio Code, Coda, ...)
   - programozási környezet kialakítása, lint, beautify
-  - editor kezelése és pluginjai, 
+  - editor kezelése és pluginjai,
   - CodeSandbox (codesandbox.io)
   
-### 1.5. Hálózati alapismeretek
-
-- hálózati struktúrák
-- hálózati eszközök
-- kliens-szerver architektúra
-- peer-to-peer hálózatok
-- az internet felépítése működése
-  - protokollok (http, ftp, tcp/ip, pop3/imap/smtp)
-  - címzések (ip-cím, dns)
-  - szerver típusok (tűzfal, proxy, NAT, DHCP)
-  - hálózati eszközök (router, switch, ...)
-
-### 1.6. Digitális tartalmak létrehozása
-
-- Szövegszerkesztés célszoftverrel
-- Tábázatkezelés célszoftverrel
-- Diagramtípusok, grafikonok készítése
-- Animáció-készítés  célszoftverrel
-- Prezentáció-készítés célszoftverrel
-- Képszerkesztés, grafikai programok használata
-- Zene-szerkesztés célszoftverrel
-- Film-vágás célszoftverrel
-- Interaktív tartalmak létrehozása célszoftverekkel
-
-### 1.7. Vizuális programozás
+### 1.6. Vizuális programozás
 
 ( Scratch, Lego Mindstorm, Unity, Unreal Engine, ... )
 
@@ -94,7 +82,7 @@
 - Kommunikáció az objektumok között.
 - Komplex példaprogram.
 
-### 1.8. A számítógép működése
+### 1.7. A számítógép működése
 
 - Számítógép felépítése, Neumann elvek.
 - Hardver elemek és funkcióik
@@ -112,17 +100,37 @@
 - Programok felépítése, felhasználói interfészek típusai.
 - A böngésző kezelése, fejlesztői eszközök, bővítmények.
 
-### 1.9 Információs társadalom
+### 1.8. Programozási alapismeretek, Python
+
+- változók, kifejezéek, adattípusok
+- összetett adatszerkezetek, lista, objektum
+- vezérlési szerkezetek, elágazások, ciklusok
+- objektumok, oszályok
+- programozási feladatok megoldása
+
+### 1.9. Hálózati alapismeretek
+
+- hálózati struktúrák
+- hálózati eszközök
+- kliens-szerver architektúra
+- peer-to-peer hálózatok
+- az internet felépítése működése
+  - protokollok (http, ftp, tcp/ip, pop3/imap/smtp)
+  - címzések (ip-cím, dns)
+  - szerver típusok (tűzfal, proxy, NAT, DHCP)
+  - hálózati eszközök (router, switch, ...)
+  
+### 1.10 Információs társadalom
 
 - informatikai biztonság
 - adatvédelmi irányelvek
 - szerzői joggal kapcsolatos alapfogalmak
 - kommunikációs illemszabályok
-- az információ és az informatika 
-  - gazdaságra, 
-  - környezetre, 
-  - kultúrára, 
-  - személyiségre, 
+- az információ és az informatika
+  - gazdaságra,
+  - környezetre,
+  - kultúrára,
+  - személyiségre,
   - egészségre gyakorolt hatása.
 
 ## 2. Web alapismeretek
@@ -173,22 +181,22 @@
 
 - node konzol
 - .js file futtatása (node index.js): console.log
-- a böngészőben: document objektum 
-  - write, 
-  - getElementById, 
-  - querySelector, 
+- a böngészőben: document objektum
+  - write,
+  - getElementById,
+  - querySelector,
   - querySelectorAll,
-  - title, 
+  - title,
   - oncontextmenu
 
-### 3.2. JavaScript (ES9) és python (3.7)
+### 3.2. JavaScript (ES9)
 
-#### 3.2.1. Szintaxis (javascript és python)
+#### 3.2.1. Szintaxis
 
 - Blokkok és tabulálás
 - Változók, utasítások, kifejezések, kommentek, változók. Operátorok és precedencia.
 
-#### 3.2.2. Típusok (sok gyakorlással és pédával node és böngészős futtatás is)
+#### 3.2.2. Típusok
 
 - JavaScript primitívek.
 - Python primitívek
@@ -234,6 +242,7 @@
 - brake
 - continue
 - try ... catch, throw
+- objektumok, oszályok
 
 #### 3.2.6. JS-Python és HTML kapcsolata
 
@@ -244,6 +253,7 @@
 #### 3.2.7. Callback függvények (JS)
 
 - Callback függvény. Promise objektum. Async Functions.
+- Eseménykezelés
 - Párhuzamos programozás, Worker
 
 ### 3.3. Böngésző funkciók
@@ -252,24 +262,11 @@
 - HTML APIs (Geolocation, Drag&Drop, Local Storage, Web Workers, SSE )
 - Böngésző local tárolók (Session Storage, IndexedDB, Web SQL, Cookies).
 
-### 3.4. Vue.js
+### 3.4 Python futtatása a böngészőben, Brython
 
-- Hello World!
-- Feltételek és iterátorok, események, komponensek
-- Adatok, Metódusok
-- Életciklus, életciklus-diagram
-- Template szintaxis
-- Dinamukus argumentek
-- Számított jellemzők, setter és getter
-- v-if szintaxis
-- v-for szintaxis, :key
-- Vue.set, ForceUpdate
-- Eseménykezelés, módosítók
-- Form-input hozzárendelés, refs
-- Komponensek, props
-- Slot
-- Single File Components
-- Routing
+- HTML DOM elérése
+- Eseménykezelés
+- Komlex feladatok megoldása
 
 ## 4. Node.js
 
@@ -315,12 +312,24 @@
 - Automatikus tesztelés
 - Dokumentáció generálás ( JSDoc, ... )
 
-### 4.5. Node Fejlesztői környezetek
+### 4.5. JavaScript keretrendszerek, SvelteKit
 
-- Webpack
-- Grunt
+- Vite
+- Hello World!
+- Feltételek és iterátorok, események, komponensek
+- Adatok, Metódusok
+- Életciklus, életciklus-diagram
+- Template szintaxis
+- Dinamukus argumentek
+- Számított jellemzők, setter és getter
+- #if szintaxis
+- #each szintaxis
+- Eseménykezelés, módosítók
+- Form-input hozzárendelés, refs
+- Komponensek
+- Routing
 
-### 4.6. MVC Frameworks ( Koa, Express, Adonis, Basys, Nuxt, ... )
+### 4.6. Cack-end fejlesztés és MVC Frameworks ( ExpressJS )
 
 - 'Hello world' app
 - serving static files
@@ -334,10 +343,8 @@
 
 ### 4.7. Egyéb modulok és kezelésük
 
-- Vue-CLI module
-- Vue-CLI konfiguráció (vue.config.js, baseUrl, publicPath, outputDir, crossorigin)
 - Vizualizációs könyvtárak (Chart.js, Vis, ...)
-- Hasonlósági mértékek (damerau-levenshtein, fuzzy-matching, string-similarity)
+- Hasonlósági mértékek (Damerau-Levenshtein, fuzzy-matching, string-similarity)
 - Titkosítás, digitális aláírás (crypto-js, bigint-crypto-utils, ...)
 - Egyéb node package-k és alkalmazásuk
 
@@ -348,10 +355,6 @@
 - Run CMS
 - Configure and management
 - Deploy
-
-### 4.9. Webszerverek üzemeltetési kérdései
-
-- Forever, PM2. Statikus webszerverek, Serve static files. http-server, VuePress.
 
 ## 5. Adatbáziskezelés
 
@@ -468,10 +471,4 @@
 
 ### Külső hivatkozások
 
-- [Példaprogramok](/examples/webexamples/)
-- Gyakorló feladatok, felületek
-  - [NemesTihamér versenyfeladatok](http://tehetseg.inf.elte.hu/nemes-online/index.html)
-  - [Mester](http://mester.inf.elte.hu/)
-  - [SPOJ](https://www.spoj.com/)
-  - [HackerRank](https://www.hackerrank.com/)
-  - [ACM](https://icpc.baylor.edu/worldfinals/problems)
+[Közoktatási oldal](http://gyakg.es6.eu/)
