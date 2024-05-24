@@ -7,7 +7,7 @@
 - [CENTRAL-EUROPEAN JOURNAL OF NEW TECHNOLOGIES IN RESEARCH, EDUCATION AND PRACTICE - International Editorial Board](http://ojs.elte.hu/cejntrep/about/editorialTeam)
 - [ACM Europe Council - Hungarian ACM Chapter](https://europe.acm.org/chapters)
 - [Magyar Operációkutatási Társaság](http://www.mot.org.hu/tarsasag/tagsag)
-- [Magyar Tudományos Akadémia Köztestülete](https://mta.hu/koztestuleti_tagok?PersonId=10048135)
+- [Magyar Tudományos Akadémia Köztestülete](https://mta.hu/koztestuleti_tagok?PersonId=10048135) (2015-től jelenleg)
   - Informatika- és Számítástudományi Bizottság
   - Szegedi Területi Bizottság
   - Informatikai Munkabizottság (szavazati jogú tag)
