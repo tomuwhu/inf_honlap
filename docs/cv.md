@@ -23,40 +23,39 @@
 
 ### Szakmai tapasztalat
 
-- [Szegedi Tudományegyetem](https://u-szeged.hu/)
-  - [**Informatikai Intézet**](http://www.inf.u-szeged.hu/)
-    - **egyetemi adjunktus (2015.01.01-től jelenleg)**
-    - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
-    - tanársegéd (2011.01.01. - 2014.12.31.)
-    - óraadó (2008.09.01. - 2010.12.31.)
-  - [School of Business Technikum](http://sobszeged.hu/)
-    - részmunkaidő (2023-tól)
-  - [Gyakorló Gimnázium](http://www.gyakg.u-szeged.hu/sagvari/)
-    - megbízás (2021-től)
-- Egyéni vállalkozó részmunkaidőben (2008-2020.)
+- [Szegedi Tudományegyetem](http://www.inf.u-szeged.hu/) 
+  - **egyetemi adjunktus (2015.01.01-től jelenleg) _(főállás)_**
+  - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
+  - tanársegéd (2011.01.01. - 2014.12.31.) *(főállás)*
+  - óraadó (2008.09.01. - 2010.12.31.)
+- [School of Business Technikum](http://sobszeged.hu/)
+  - **részmunkaidő (2023-tól jelenleg) _(részmunkaidő)_**
+- [Gyakorló Gimnázium](http://www.gyakg.u-szeged.hu/sagvari/)
+  - részmunkaidő (2021-2024) _(részmunkaidő)_
+- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) 
+  - részmunkaidő (2001-2005., 2019-2020.) _(részmunkaidő)_
+- Egyéni vállalkozó (2008-2020.) _(részmunkaidő)_
   - informatika oktatás: szoftverfejlesztő képzések (School of Business, SzámPont Kft., ...)
   - táncoktatás: társastánc, sporttánc (Papiron SC, Kincso Alapítvány, KrupArt Kft., ... )
   - egyedi szoftverfejlesztés ([Szegedi Zsidó Archívum dokumentum nyilvántartó és kereső szoftver](https://szegedjewisharchive.org/), Iskolai adminisztrációs szoftverek, Pénzügyi nyilvántartó szofrver, Táncverseny lebonyolító és számláló szoftver, ...)
-- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage)
-  - részmunkaidő (2001-2005., 2019-2020.)
 - SNW Systems Kft.
-  - ügyvezető (2008 - 2019.)
+  - ügyvezető (2008 - 2019.) _(részmunkaidő)_
   - szoftverfejlesztés irányítása (TISZK-VIR, SNW rendszer, ...)
 - [Pannon Egyetem, Veszprém](https://uni-pannon.hu/)
-  - tudományos munkatárs részmunkaidő (2016-2017.)
+  - tudományos munkatárs részmunkaidő (2016-2017.) _(részmunkaidő)_
   - gráfelméleti kutatások
-- [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/) _Kutatóintézet_
+- [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/) Kutatóintézet
   - Am Wolfsmantel 33, 91058 Erlangen - Németország
-  - tudományos munkatárs (2009.)
+  - tudományos munkatárs r(2009.) _(részmunkaidő)_
   - online klaszterezés [RTLS rendszer](http://publicatio.bibl.u-szeged.hu/5748/1/info51_1_u.pdf)
 - [Nemzeti Szakképzési és Felnőttképzési Hivatal](https://www.nive.hu/)
   - Szakiskolai Fejlesztési Program részmunkaidő (2007-2008.)
   - Országos Szakiskolai Kompetenciamérés (szoftverfejlesztés irányítása)
-- [Szegedi Szakképzési Centrum](http://szakkepzesszeged.hu/)
-  - Móravárosi Szakgimnáziuma és Szakközépiskolája (2001.- 2010.)
-  - Gábor Dénes Szakgimnáziuma és Szakközépiskolája (1995. - 2000.)
+- [Szegedi Szakképzési Centrum](http://szakkepzesszeged.hu/) 
+  - Móravárosi Szakgimnáziuma és Szakközépiskolája (2001.- 2010.) *(főállás)*
+  - Gábor Dénes Szakgimnáziuma és Szakközépiskolája (1995. - 2000.) *(főállás)*
 - Széchenyi István Gimnázium és Szakközépiskola (2000.-2001.)
-- Agroker RT. (1994.-1995.)
+- Agroker RT. (1994.-1995.) *(főállás)*
 
 ### Díjak, ösztöndíjak
 
