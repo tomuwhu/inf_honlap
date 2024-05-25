@@ -38,6 +38,7 @@
 	var text = ``,
 		cv = { cv: '', pl: '' }
 	const targylist = [
+		['alga1', 'Algoritmusok és Adatszerkezetek I. (levelező)'],
 		['algo', 'Algoritmizálás'],
 		['eli1', 'Elemi Informatika 1'],
 		['eli2', 'Elemi Informatika 2'],
@@ -50,7 +51,7 @@
 		['sztai', 'Számítástechnikai alapismeretek'],
 		['szgr', 'Számítógépes rendszerek']
 	]
-	var ns = 'algo'
+	var ns = 'alga1'
 	const fx = (e) => axios.get(`${base}/targyak/${ns}.md`).then((v) => (text = v.data))
 	const getcv = (e) =>
 		['cv', 'pl'].map((md) => axios.get(`${base}/${md}.md`).then((v) => (cv[md] = v.data)))
@@ -89,7 +90,7 @@
 						<NativeSelect
 							data={targylist.map((v) => ({ label: v[1], value: v[0] }))}
 							bind:value={ns}
-							radius="md"
+							radius="xs"
 							size="xs"
 							on:change={fx}
 						/>
