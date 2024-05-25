@@ -3,9 +3,10 @@
 ## Alapfogalmak
 
 - algoritmus, számítási probléma
+- algoritmusok mint technológia
 - futási idő
 - tárigény
-- O jelölés
+- aszimptotikusjelölések
 - helyesség
 - algoritmus megadási módszerek
 
@@ -13,8 +14,7 @@
 
 - beszúró rendezés
 - buborékrendezés
-- leszámláló rendezés
-- radix rendezés
+- rendezés lineáris időben
 - _öszefésülő rendezés_
 - _gyorsrendezés_
 - _kupacrendezés_
@@ -22,6 +22,7 @@
 ## Elemi adatszerkezetek
 
 - tömb
+- mutatók és objektumok
 - interfész fogalma, absztrakt adatszerkezet
 - adatszerkezet típus (osztály létrehozása, példányosítása)
 - láncolt lista
@@ -30,18 +31,21 @@
 
 ## Elemi algoritmusok
 
-- Keresés adatszerkezetben, adatmódosítás, adat törlése
-- Leválogatás
-- Keresés rendezett adatokon
-- Függvényhívás folyamata
-- Rekurzió
-- Rekurzió memorizálása
+- keresés adatszerkezetben, adatmódosítás, adat törlése
+- leválogatás (szűrés)
+- keresés rendezett adatokon
+- függvényhívás folyamata
+- rekurzió
+- rekurzió memorizálása
+- oszd meg és uralkodj
 
 ## Fejlett adatszerkezetek és kapcsolódó problémák
 
 - hasítótáblázatok
 - bináris fa, általános fa
 - bináris keresőfa, általános keresőfa
+- véletlen építésű bináris keresőfa
+- intervallumfák
 - bináris kupac
 - gráfok, irányított gráfok, súlyozott gráfok, gráfok tulajdonságai
   - pontok, élek, hurokél, izolált pont, párhuzamos élek, út, kör
@@ -57,10 +61,11 @@
 - gráfok szélességi bejárása
 - számított gráf problémák, öntögetős játék
 - Dijkstra algoritmus
-- Kruskal algoritmus, halmazerdő
+- Diszjunkt halmazok láncolt listás ábrázolása
+- Kruskal algoritmus, diszjunkt-halmaz erdő
 - Prim algoritmus
-- minimális vágás - maximális folyam
-- párosítási problémák, magyar módszer
+- hálózati folyamok, FordésFulkersonalgoritmusa
+- párosítási problémák, maximális párosítás, magyar módszer
 - gráfok színezése
 
 ## Rekurzióval megoldható problémák
@@ -84,6 +89,7 @@
 - optimális pénzváltás
 - palindróma probléma
 - hátizsák probléma
+- optimális bináris keresőfa
 - Damerau-Levenstein távolság
 - _Floyd–Warshall-algoritmus_
 
