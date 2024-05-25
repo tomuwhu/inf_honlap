@@ -7,7 +7,7 @@
 - [CENTRAL-EUROPEAN JOURNAL OF NEW TECHNOLOGIES IN RESEARCH, EDUCATION AND PRACTICE - International Editorial Board](http://ojs.elte.hu/cejntrep/about/editorialTeam)
 - [ACM Europe Council - Hungarian ACM Chapter](https://europe.acm.org/chapters)
 - [Magyar Operációkutatási Társaság](http://www.mot.org.hu/tarsasag/tagsag)
-- [Magyar Tudományos Akadémia Köztestülete](https://mta.hu/koztestuleti_tagok?PersonId=10048135)
+- [Magyar Tudományos Akadémia Köztestülete](https://mta.hu/koztestuleti_tagok?PersonId=10048135) (2015-től jelenleg)
   - Informatika- és Számítástudományi Bizottság
   - Szegedi Területi Bizottság
   - Informatikai Munkabizottság (szavazati jogú tag)
@@ -23,20 +23,20 @@
 
 ### Szakmai tapasztalat
 
-- [Szegedi Tudományegyetem](http://www.inf.u-szeged.hu/) 
+- [Szegedi Tudományegyetem](http://www.inf.u-szeged.hu/)
   - **egyetemi adjunktus (2015.01.01-től jelenleg) _(főállás)_**
   - Intézetvezető helyettes - oktatási ügyek (2014-2017)
-  - tanársegéd (2011.01.01. - 2014.12.31.) *(főállás)*
-  - óraadó (2008.09.01. - 2010.12.31.)
+  - tanársegéd (2011.01.01. - 2014.12.31.) _(főállás)_
+  - demonstrátor (2008.09.01. - 2010.12.31.) _(részmunkaidő)_
 - [School of Business Technikum](http://sobszeged.hu/)
-  - **részmunkaidő (2023-tól jelenleg) _(részmunkaidő)_**
+  - **oktató (2023-tól jelenleg) _(részmunkaidő)_**
 - [Gyakorló Gimnázium](http://www.gyakg.u-szeged.hu/sagvari/)
-  - részmunkaidő (2021-2024) _(részmunkaidő)_
+  - gimnáziumi tanár (2021-2024) _(részmunkaidő)_
 - [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) 
-  - részmunkaidő (2001-2005, 2019-2020) _(részmunkaidő)_
+  - gimnáziumi tanár (2001-2005, 2019-2020) _(részmunkaidő)_
 - Egyéni vállalkozó (2008-2020) _(részmunkaidő)_
   - informatika oktatás: szoftverfejlesztő képzések (School of Business, SzámPont Kft., ...)
-  - táncoktatás: társastánc, sporttánc (Papiron SC, Kincso Alapítvány, KrupArt Kft., ... )
+  - táncsport edző: (Papiron SC, Kincso Alapítvány, KrupArt Kft., ... )
   - egyedi szoftverfejlesztés ([Szegedi Zsidó Archívum dokumentum nyilvántartó és kereső szoftver](https://szegedjewisharchive.org/), Iskolai adminisztrációs szoftverek, Pénzügyi nyilvántartó szofrver, Táncverseny lebonyolító és számláló szoftver, ...)
 - SNW Systems Kft.
   - ügyvezető (2008-2019) _(részmunkaidő)_
@@ -52,10 +52,12 @@
   - Szakiskolai Fejlesztési Program részmunkaidő (2007-2008)
   - Országos Szakiskolai Kompetenciamérés (szoftverfejlesztés irányítása)
 - [Szegedi Szakképzési Centrum](http://szakkepzesszeged.hu/) 
-  - Móravárosi Szakgimnáziuma és Szakközépiskolája (2001-2010) *(főállás)*
-  - Gábor Dénes Szakgimnáziuma és Szakközépiskolája (1995-2000) *(főállás)*
+  - tanár: Móravárosi Szakgimnáziuma és Szakközépiskolája (2001-2010) *(főállás)*
+  - tanár: Gábor Dénes Szakgimnáziuma és Szakközépiskolája (1995-2000) *(főállás)*
 - Széchenyi István Gimnázium és Szakközépiskola (2000-2001)
+  - gimnáziumi tanár
 - Agroker RT. (1994-1995) *(főállás)*
+  - rendszergazda
 
 ### Díjak, ösztöndíjak
 
