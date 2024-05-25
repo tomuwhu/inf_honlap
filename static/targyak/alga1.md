@@ -6,7 +6,7 @@
 - algoritmusok mint technológia
 - futási idő
 - tárigény
-- aszimptotikusjelölések
+- aszimptotikus jelölések
 - helyesség
 - algoritmus megadási módszerek
 
