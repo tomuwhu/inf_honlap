@@ -90,7 +90,7 @@
 - palindróma probléma
 - hátizsák probléma
 - optimális bináris keresőfa
-- Damerau-Levenstein távolság
+- [Damerau-Levenstein távolság, Wagner–Fischer algoritmus, hasonlósági érték](https://www.codeproject.com/Articles/5342019/An-Optimal-Wagner-Fischer-Algorithm-For-Approximat)
 - _Floyd–Warshall-algoritmus_
 
 ## Komplex témakörök
