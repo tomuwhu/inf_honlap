@@ -22,13 +22,15 @@
 ## Elemi adatszerkezetek
 
 - tömb
+- interfész fogalma, absztrakt adatszerkezet
+- adatszerkezet típus (osztály létrehozása, példányosítása)
 - láncolt lista
 - verem
 - sor
 
 ## Elemi algoritmusok
 
-- Keresés
+- Keresés adatszerkezetben, adatmódosítás, adat törlése
 - Leválogatás
 - Keresés rendezett adatokon
 - Függvényhívás folyamata
