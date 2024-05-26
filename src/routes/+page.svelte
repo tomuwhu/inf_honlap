@@ -121,3 +121,46 @@
 		</Tabs.Tab>
 	</Tabs>
 {/if}
+<style>
+	:global(table) {
+		border-spacing: 5px;
+		margin: auto;
+	}
+	:global(td) {
+		padding: 5px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		background-color: rgb(237, 237, 237);
+	}
+	:global(td:nth-child(1)) {
+		padding-right: 30px;
+		background-color: rgb(87, 87, 87);
+		color:white;
+	}
+	:global(td:nth-child(2)) {
+		min-width: 200px;
+	}
+	:global(th) {
+		min-width: 50px;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: rgb(26, 26, 26);
+		color:white;
+	}
+	:global(th:nth-child(2)) {
+		min-width: 200px;
+	}
+	:global(h4){
+		text-align: center;
+		font-size: 14px;
+		color: rgb(67, 67, 67);
+		text-shadow: 1px 1px 3px gray;
+	}
+	:global(h2){
+		padding-top: 15px;
+		font-size: 18px;
+		color: rgb(81, 20, 20);
+		text-decoration: underline;
+	}
+</style>
