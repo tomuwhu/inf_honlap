@@ -71,10 +71,10 @@
     <Tabs>
         <Tabs.Tab label="Kezdőlap">
             <Flex>
-                <Box css={{ marginLeft: '30px', marginRight: '10px', marginTop: '10px' }}>
-                    <Image width={200} radius="md" src="{base}/myface.jpg" alt="Random unsplash image" />
+                <Box css={{ marginLeft: '20px', marginRight: '0px', marginTop: '10px' }}>
+                    <Image id="mp" width={100}  radius="md" src="{base}/myface.jpg" alt="Random unsplash image" />
                 </Box>
-                <Box css={{ marginLeft: '30px', marginRight: '10px', marginTop: '30px' }}>
+                <Box css={{ marginLeft: '30px', marginRight: '10px', marginTop: '30px', minwidth: '300px' }}>
                     <Title css={{ fontSize: '24px' }}>Dr. Németh Tamás</Title>
                     <Text css={{ fontSize: '13px', color: 'gray' }}>egyetemi adjunktus - SZTE TTIK</Text>
                     <Space h="lg" />
@@ -130,6 +130,9 @@
     </div>
 {/if}
 <style>
+    :global(img#mp) {
+        opacity: 0.8;
+    }
     :global(table) {
         border-spacing: 5px;
         margin: auto;
