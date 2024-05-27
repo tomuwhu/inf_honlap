@@ -1,5 +1,6 @@
 <script>
     // @ts-nocheck
+    import { buildDate } from '../build-info.js';
     import { base } from '$app/paths'
     import {
         Image,
@@ -120,6 +121,13 @@
             </Text>
         </Tabs.Tab>
     </Tabs>
+    <div class=bfd>
+
+    </div>
+    <div class=fd>
+            Utosló frissítés: {buildDate.split("T")[0]}
+            {buildDate.split("T")[1].split(".")[0]}
+    </div>
 {/if}
 <style>
     :global(table) {
@@ -162,5 +170,21 @@
         font-size: 18px;
         color: rgb(81, 20, 20);
         text-decoration: underline;
+    }
+    div.fd {
+        text-align: center;
+        width: 100%;
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        padding: 2px;
+        margin: 0px;
+        background-color: rgb(54, 54, 54);
+        color:rgb(199, 199, 199);
+        font-size: 11px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    div.bfd {
+        height: 20px;
     }
 </style>
