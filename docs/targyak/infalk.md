@@ -1,7 +1,5 @@
 # Informatikai alkalmazások
 
-[[toc]]
-
 ## A tárgy ismeratanyaga
 
 1. A közoktatásban használt alkalmazói rendszerek áttekintése, alkalmazási lehetőségeinek feltárása.

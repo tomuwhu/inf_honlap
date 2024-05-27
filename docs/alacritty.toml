@@ -1,0 +1,40 @@
+[font]
+
+size = 12.0
+
+[font.normal]
+
+family = "MesloLGS NF"
+
+[window]
+
+blur = true
+decorations = "Buttonless"
+decorations_theme_variant = "Dark"
+opacity = 0.75
+padding.x = 20
+padding.y = 20
+
+[colors]
+
+cursor = {text = "#ecbf89", cursor = "#ecbf89"}
+primary = {foreground = "#ecfff9", background = "#021411"}
+
+[cursor]
+style = {shape = "Underline", blinking = "Always"}
+thickness = 0.4
+
+[terminal]
+
+osc52 = "CopyPaste"
+
+[keyboard]
+
+bindings = [
+  {key = "T", mods = "Command|Shift", chars = "tree -l 5 --ignore 'node_modules' \n"},
+  {key = "D", mods = "Command|Shift", chars = "cd ~/Development\n"},
+  {key = "R", mods = "Command|Shift", chars = "npm run dev\n"},
+  {key = "S", mods = "Command|Shift", chars = "code /Users/tom/.config/alacritty/alacritty.toml\n"},
+  {key = "X", mods = "Command|Shift", action = "ClearHistory"},
+  {key = "C", mods = "Command|Shift", chars = "clear\n"},
+]
