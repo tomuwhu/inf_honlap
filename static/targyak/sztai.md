@@ -380,19 +380,18 @@
 ## 7. Full-stack alkalmazásfejlesztés
 
 - Webes alkalmazások felépítése, működési elve, kliens és szerver oldal, RESTful API-k, axios.
-- Vue UI-k ( Bootstrap-VUE, Semantic, Vuetify, ... ), VUEX, Vue Router.
-- Vue Material Dashboard.
+- ExpressJs, Svelte, SvelteKit
 - Google API-k az alkalmazásfejlesztésben
-  - autentikáció folyamata (vue-google-oauth2)
-  - Google analitics (vue-analitics)
+  - autentikáció folyamata (oauth2)
+  - Google analitics
 - Cloud platormok ( HEROKU, Firebase, ... ).
 - Komplex skálázható webes rendszerek, webes kommunikációs interfészek ( ws, sse ).
 - Esemény-alapú kliens-szerver kommunikáció (socket.io).
 - Platformfüggetlen alkalmazásfejlesztés (NW.js, ElectronJS, Cordova, ...).
 - Mobil alkalmazások fejlesztése: accelerometer, GPS, kamera, ... ( NativeScript, ... ).
-- Server side rendering, ( koa-vue-ssr, express-vue, ... ).
+- Server side rendering, ( Svelte ).
 - Starter kitek.
-- Full stack web frameworks ( Basys, NUXT, Quasar ).
+- Full stack web frameworks ( SvelteKit ).
 - Webes IOT és beágyazott rendszerek programozása, RPI-GPIO.
 
 [![RapidAPI](https://rapidapi.com/static-assets/default/logo.svg)](https://rapidapi.com/)
@@ -401,19 +400,15 @@
 
 (Informatikatanár szak)
 
-- [Pédaprogramok](/examples/algoexamples/)
-- [Régi honlap példaprogramokkal és előadás-anyagokkal](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
-- [Régi algoritmusok és adatszerkezetek II. előadások anyagai](http://www.inf.u-szeged.hu/~tnemeth/alga2/alg2.php)
-
 ### 8.1 Alapfogalmak, algoritmusok elemei
 
 - Változó fogalma, adattípusok.
 - Statikus és dinamikus memóriakezelés
 - Elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
 - Algoritmusok elemei magas szintű programozási nyelvekben: 
-  - szekvencia, 
-  - szelekció, 
-  - iteráció, 
+  - szekvencia,
+  - szelekció,
+  - iteráció,
   - rekurzió.
 - A tömb fogalma és kezelése.
 - Algoritmusok jellemzői, a futási idő és tárigény fogalma. Elemi kereső és rendező algoritmusok:
@@ -468,7 +463,3 @@
   - online nyugtázás, ládapakolás, k-szerver probléma
   - véletlenített online algoritmusok
   - online tanuló algoritmusok
-
-### Külső hivatkozások
-
-[Közoktatási oldal](http://gyakg.es6.eu/)
