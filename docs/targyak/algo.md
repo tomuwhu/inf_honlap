@@ -2,19 +2,15 @@
 
 (Informatikatanár szak)
 
-- [Pédaprogramok](http://www.inf.u-szeged.hu/~tnemeth/examples/algoexamples/)
-- [Régi honlap példaprogramokkal és előadás-anyagokkal](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
-- [Régi algoritmusok és adatszerkezetek II. előadások anyagai](http://www.inf.u-szeged.hu/~tnemeth/alga2/alg2.php)
-
-## Alapfogalmak, algoritmusok elemei
+## Alapfogalmak és az algoritmusok elemeinek tanítása
 
 - Változó fogalma, adattípusok.
 - Statikus és dinamikus memóriakezelés
 - Elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
-- Algoritmusok elemei magas szintű programozási nyelvekben: 
-  - szekvencia, 
-  - szelekció, 
-  - iteráció, 
+- Algoritmusok elemei magas szintű programozási nyelvekben:
+  - szekvencia,
+  - szelekció,
+  - iteráció,
   - rekurzió.
 - A tömb fogalma és kezelése.
 - Algoritmusok jellemzői, a futási idő és tárigény fogalma. Elemi kereső és rendező algoritmusok:
@@ -40,7 +36,16 @@
 - Amortizációs költségelemzés.
 - Kettős adatszerkezetek.
 
-### 6.3 Nevezetes informatikai problémák és algoritmusok
+## Algoritmusok a magas szintű programozási nyelvek mögött
+
+- változók és referenciák
+- a függvényhívás folyamata, működése, paraméterátadás
+- callback technológia
+- tömbök és listák kezelése: python, javascript és php
+- objektumok kezelése különböző programozási nyelvekben
+- generátorfüggvények
+
+## Nevezetes informatikai problémák és algoritmusok
 
 - Mintaillesztés: automatával, Knuth-Morris-Pratt algoritmus.
 - Hátizsák feladat, tükörszó probléma.
@@ -50,6 +55,7 @@
 - Hemming-távolság, Damerau–Levenshtein-távolság, Wagner–Fischer algoritmus.
 - Számelméleti algoritmusok, nyilvános kulcsú tikosítás, RSA algoritmus.
 - Gráf absztrakt adattípus, gráf tárolási módok, számított gráf fogalma és példák.
+- Euler-kör, Eulet-séta, Hamilton-út, Hamilton-kör
 - Gráf-algoritmusok (gráf bejárások és keresések, Floyd-Warshall, PageRank algoritmus).
 - Dijkstra- és A* algoritmus.
 - Speciális gráfok, páros gráfok és párosítási problémák. Magyar módszer.
@@ -70,7 +76,7 @@
   - véletlenített online algoritmusok
   - online tanuló algoritmusok
 
-### Külső hivatkozások
+## Külső hivatkozások
 
 - [Példaprogramok](/examples/webexamples/)
 - Gyakorló feladatok, felületek
