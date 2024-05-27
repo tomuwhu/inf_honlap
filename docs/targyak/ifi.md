@@ -1,166 +1,353 @@
 # Intelligens felhasználói interfészek
 
-## Előismereti feltételek
+## Bash
 
-- HTML, CSS ismerete
-- [JavaScript (...ES2018) alkalmazása](https://developer.mozilla.org/hu/docs/Web/JavaScript)
-- SQL nyelv és relációs adatbázisok tervezésének ismerete
+- Fájltendszer, könyvtárstruktúra
+  - fájltípusok, kiterjesztések
+  - fa könyvtár-struktúra
+  - abszolút-, relatív elérési út
+  - file, könyvtár
+  - futtatható fájl, command line applications
+- Terminál app beállítása
+  - Alacritty
+  - Powerlevel10k
+- Terminál parancsok
+  - ls, cd, mkdir, chmod
+  - touch, rm, cp, mv
+  - su, sudo, pwd, cat (type)
+  - apt-get, brew
+- Windows CMD
+  - dir
+  - set PATH=%PATH%;C:/php
+- Környezeti változók
 
-## Tematika
+## Github
 
-### 1. Callback függvények
+- github regisztráció
+- git telepítés
+- git beállítása
+  - git init, clone, add, commit, push, pull
+  - .gitignore
+- GitHub Desktop
+- index.html, README.md
+- Beállítások, GitHub Pages
+- Domain beállítások
+- Adatvédelmi tudnivalók, GitGuardian
 
-- Callback függvény. Promise objektum. Async Functions.
-- Párhuzamos programozás, Workers
+## [VSCode](https://code.visualstudio.com/) használata
 
-### 2. Böngésző funkciók
+- kód bevitel
+- UTF-8, Szimbólumok
+- témák használata
+- pluginek
+  - ESLint, Prettier
+  - Indent-rainbow, Material Icons
+  - Live Server
+  - Live Share
+  - Markdown All in One
+  - IntelliCode/Codeium
+  - Svelte preview
+- Svelte counter példaalkalmazás
 
-- HTML DOM elérése JS-ből
-- HTML APIs (Geolocation, Drag&Drop, Local Storage, Web Workers, SSE )
-- Böngésző local tárolók (Session Storage, IndexedDB, Web SQL, Cookies).
+## HTML/CSS/Markdown/SVG/JS ismétlés
 
-### 3. Vue.js
+- [Markdown](https://www.markdownguide.org/basic-syntax/)
+- HTML objektumok, attribútumok, szelektorok
+- CSS szelektorok
+- Táblázatok
+- Grid
+- FlexBox
+- Űrlapok, Űrlapelemek
+- Események
+- Favicon
+- .css file, \<link>
+- CSS Szintaxis, Szelektorok, Színek, Háttér, Opacity
+- Display, Box model, Border, Text, Font
+- Position
+- Külső CSS/JS könyvtárak és egyebek
+  - [Google Fonts](https://fonts.google.com/)
+  - [Bootstrap](https://getbootstrap.com/)
+  - [BootstrapVue](https://bootstrap-vue.org/)
+  - [SVELTESTRAP](https://sveltestrap.js.org/?path=/docs/sveltestrap-overview--docs)
+  - [Material UI](https://materializecss.com/)
+  - [Vue Material UI](https://www.creative-tim.com/vuematerial/)
+  - [Svelte Material UI](https://sveltematerialui.com/)
+  - [React Material UI](https://mui.com/)
+- SVG formátum, SVG használata HTML-ben
+- CSS Transform
+- CSS Animációk
+  - animation
+  - @keyframes
+- SCSS/SASS
+- JavaScript online editor
+  - [Vanilla](https://playcode.io/javascript)
+  - [JQuery](https://playcode.io/jquery)
+  - [React](https://playcode.io/react)
+  - [Vue](https://playcode.io/vue)
+  - [Svelte](https://playcode.io/svelte)
 
-- Hello World!
-- Feltételek és iterátorok, események, komponensek
-- Adatok, Metódusok
-- Életciklus, életciklus-diagram
-- Template szintaxis
-- Dinamukus argumentek
-- Számított jellemzők, setter és getter
-- v-if szintaxis
-- v-for szintaxis, :key
-- Vue.set, ForceUpdate
-- Eseménykezelés, módosítók
-- Form-input hozzárendelés, refs
-- Komponensek, props
-- Slot
-- Single File Components
-- Routing
+## JavaScript/TypeScript/Svelte/Vue (Browser)
 
-### 4. Node.js
+- JavaScript megjelenítés
+  - Browser DevTools: elemek, vizsgálat, konzol, források
+  - window, document objects, DOM
+  - getElementById, querySelectorAll()
+  - element attribútumok (id, class, draggable, ...)
+  - \<script src='...'\>, \<script type="module" src="./main.js"></script>
+  - _SVELTE {}, bind:value, ..._
+  - _VUE API Styles_
+- Eseménykezelés __~Függvények__
+  - böngésző események
+  - onclick, keydown, keyup, onmousemove, onmouseout, ...
+  - oncontextmenu="return false"
+  - eseménybuborékozás, event.stopPropagation()
+  - oninput, onchange, dragstart, dragover, drop...
+  - _SVELTE, VUE Binding bind:value, :value_
+  - _SVELTE események (on:click, on:dragstart, ...)_
+  - _VUE események (@click, @dragstart, :value, ...)_
+- Szintaxis
+  - Értékek, típusok (számok, szöveg)
+  - Változók, definiálás, értékadás
+  - _SVELTE var, let, const_
+  - _SVELTE számított értékek: $: ௐ_
+  - _VUE reactive, computed_
+  - JavaScript / TypeScript
+    - alap típusok: string, number, boolean
+    - bigint, symbol, object, funtion, any
+  - Kulcsszavak
+  - Kommentek: //, /⁕ &lt;!-- ண -->
+  - Operátorok, kifejezések, precedencia
+  - String függvények, template
+  - Feltételes értékadás: ண ? ண : ண
+- Függvények
+  - function f() {}
+  - f = (...) => { ... ; return ௐ}
+  - f = ௐ => ண
+  - alapértelmezett érték
+  - objektum paraméter
+  - get, set
+  - beépített függvények
+  - generátorfüggvények, yield, yield*
+- Tömbök (listák)
+  - Lista létrehozása
+  - Elem hozzáadása, adott elem kiválasztása
+  - Elem törlése, adott elem keresése
+  - Szűrés, rendezés, elemek módosítása
+- Utasítások
+  - if, elseif, else, switch...case
+  - for, .forEach(ண), .map(ண), ...
+  - _SVELTE_
+    - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
+    - _{#each ஃ as obj, index (key)} ... {:else} ... {/each}_
+    - _{#each items as { id, name, qty }, i (id)} ... {/each}_
+    - _{#await expression}...{:then name}...{:catch name}...{/await}_
+    - _{#key expression}...{/key}_
+  - _VUE: v-if, v-for, ..._
+  - body onload()
+  - _SVELTE, VUE: onMount(), onMounted_
+  - try...catch
+- Objektumok
+  - jellemzők
+  - metódusok
+- Osztályok
+  - jellemzők (property - tulajdon)
+  - private, public
+  - metódusok (method - módszer)
+  - constructor
+  - extends, static
+  - példányosítás, new (instance - eset)
+  - statikus metódusok
+  - statikus jellemzők
+- Beépített osztályok
+  - Math
+    - E, LN10, LN2, LOG10E, LOG2E, PI, SQRT1_2, SQRT2
+    - abs, sin, cos, asin, acos, ceil, trunc, floor, round
+    - sin, cos, exp, sgn, sqrt, log, log2, log10
+    - max, min, pow, random
+  - Object
+    - Constructor
+    - Static methods
+    - Instance methods
+  - Array
+    - length
+    - fill, every, join, keys, values, push, pop, *shift*, *unshift*
+    - splice, toSpliced, reverse, toReversed
+    - forEach, map, filter, sort, toSorted
+  - Set
+    - size
+    - add, delete, has, keys (values), forEach, clear
+    - union, intersection, symmetricDifference
+  - Map, WeakMap
+    - size
+    - set, has, gat, delete, forEach, keys, values, clear
+  - String
+    - Instance methods and propery
+  - Date
+  - eval()
+  - JSON
+  - RegExp
+  - Promise
+  - FormData
+  - Screen
+- Beépített objektumok
+  - document
+    - getElementById
+    - createElement
+    - querySelectorAll
+  - cookieStore
+- Browser DevTools: Alkalmazás
+  - Helyi tárhely (localStorage)
+  - Cookie-k
+  - IndexedDB
+  - ReadableStream
+- TypeScript: interface, implements, private, protected, \<T>
+- [JavaScript referencia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
-#### 4.1. Node.js alapok
+## JavaScript fogások
 
-- nodejs telepítése
-- command line interface
-- js fájl futtatása
-- online felületek (runkit, repl.it, codesandbox.io...)
+- String template, Filterprefix
+- Array (map, forEach, fill, sort, filter, reduce)
+- SetInterval, SetTimeout
+- Callback
+- async, await
+- Promisse
+- Fetch
+  - Stream
+  - Stream => Text
+  - Stream => JSON
+- Cookie-k
+- EventSource
+- Date, Time
+- JSON
+- RegExp
+- DOMParser
+- Modulok, CDN
+  - [jQuery](https://jquery.com/)
+  - [Axios](https://axios-http.com/docs/intro), RestAPI
+  - [Google Sheets Parser](https://www.npmjs.com/package/public-google-sheets-parser)
+  - [Socket.io<sup>*</sup>](https://socket.io/)
+  - [levenshtein](https://github.com/gf3/Levenshtein)
+  - [marked](https://marked.js.org/)
+  - [highlight.js](https://highlightjs.org/) v. [prism.js](https://prismjs.com/)
+  - [Chart.js](https://www.chartjs.org/) v. [vis.js](https://visjs.org/)
+- Browser Alkalmazás
+  - Helyi tárhey (localStorage, sessionStorage)
+  - Firefox: Svelte Dev Tools
+- FrontEnd technológiák, fogások
+  - JS => HTML Táblázat generálása
+    - Table, Flex, Grid
+  - JS => SVG grafika generálása
+  - &lt;select> - optionok JavaScriptes kitöltése
+  - Egér és billentyűzet események
+    - eseménykezelés JS-ben
+    - eseménykezelés generálása
+  - Levenshtein Filter készítése
+  - Egyszerű HTML-CSS-JS játékok készítése
+    - Amőba, Aknakereső, Tron, Tetris, Tologatós kirakó, ...
+  - Pozíció (relative, fixed) és méret módosítása JS segítségével
+    - naptár megjelenítő alkalmazás fejlesztése
+    - órarend megjelenítő alkalmazás fejlesztése
+  - Drag & Drop
+    - drag, dragstart, dragenter, dragover, dragend, dragleave, drop
+    - Drag & Drop - fájl feltöltés  
+    - Kártyajáték, Kirakó készítése, Mondrian Blocks
+  - Animációk, fizikai szimulációk
+    - SVG objektumok mozgatása
+    - Egyenes vonalú egyenletes mozgás, sebességvektor
+    - Gyorsulás, Lassulás, Gravitáció
+    - Ütközésdetektálás
+    - Lendületmegmaradás törvénye és alkalmazása
+  - HTML, CSS, JS Játékok készítése
+  - Design fogások
+    - BootStrap
 
-#### 4.2. Globals
+## HTML/CSS/JS Mobile
 
-- console ( log, time, table, ... )
-- Internationalization
-- eseményvezérelt programozás, events, EventEmitter
-- __dirname, __filename, TextDecoder, util, stream
-- process ( argv, execPath, chdir, env, exit, getid, stdout, ... )
-- process.stdin.on( 'data', callback ), .setRawMode( true )
-- readline
-- setImmediate, setInterval, setTimeout
-- Worker Threads, cluster, Child Processes *
-- File System
-- HTTP
+- viewport
+- @media
+- inspect
+- device toolbar
+- touchstart, touchend, touchmove, touchcancel események
+- dragndrop speciális tulajdonságok
+- navigator.geolocation
+- DeviceOrientationEvent
+- DeviceMotionEvent
+  - acceleration, accelerationIncludingGravity
+  - interval
+  - rotationRate
 
-#### 4.3. JS könyvtárak és Node.js modulok
+## JQuery, JQuery UI
 
-- module.exports
-- require
-- import ( mjs mudules )
-- npm
-  - install
-  - semantic versioning (major, minor, patch)
-  - publish
-- nodemon
+- HTML
+- JavaScript
+- Options
+- Metódusok
+- Események
+- Styílusok
+- Interakciók
+- Widgetek
+- Effektek
+- Eszközök
 
-#### 4.4. Fejlesztés közbeni feladatok
+## JQuery Mobile
 
-- Debugolás
-- Logolás
-- Hibakezelés ( Jest, Nightwatch.js )
-- Hibakeresés
-- Tesztelés ( Mocha )
-- Automatikus tesztelés
-- Dokumentáció generálás ( JSDoc, ... )
+- ThemeRoller
+- Eszközök
 
-#### 4.5. Node Fejlesztői környezetek
+## NodeJS frontend
 
-- Webpack
-- Grunt
+## [Svelte](https://svelte.dev/docs/introduction)
 
-#### 4.6. MVC Frameworks ( Koa, Express, Adonis, Basys, Nuxt, ... )
+- [Tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
+- [Examples, Játszótér](https://svelte.dev/examples/hello-world)
+- Svelte komponensek
+  - export prop
+  - reactivitás, számított változók
+  - state management, store
+  - style :global
+- Logikai blokkok (#if, #each, #await, #key)
+  - speciális elemek (@html, @debug, @const)
+- Direktívák
+  - on:__, bind:__, class:__, style:__
+  - use:__, transition:__, animate:__
+- Svelte runtime
+  - onMount, beforeUpdate, afterUpdate, onDestroy, tick
+  - setContext, getContext, hasContext, getAllContexts
+  - createEventDispatcher
+- Svelte Store
+- Motion, Transition, Animation
 
-- 'Hello world' app
-- serving static files
-- routing (get, post, put, del, all, ...)
-- Middleware, params
-- koa-body, kcors
-- cookies, session variables
-- hibakezelés
-- adatbázis-integráció
-- template engines (edge, swig, vue-server-renderer, ejs, ...)
+## [SvelteUI](https://svelteui.dev/theming/dark-theme)
 
-#### 4.7. Egyéb modulok és kezelésük
+- Telepítés
+- Funkciók
+- Beállítás
+- Tartalom
+- Űrlapok
+- Komponensek
 
-- Vue-CLI module
-- Vue-CLI konfiguráció (vue.config.js, baseUrl, publicPath, outputDir, crossorigin)
-- Vizualizációs könyvtárak (Chart.js, Vis, ...)
-- Hasonlósági mértékek (damerau-levenshtein, fuzzy-matching, string-similarity)
-- Titkosítás, digitális aláírás (crypto-js, bigint-crypto-utils, ...)
-- Egyéb node package-k és alkalmazásuk
+## Full-stack multiplatform alkalmazás fejlesztése (SvelteKit - SQLite)
 
-#### 4.8. Tartalomkezelő rendszerek
+  {Tárgyak közötti együttműködéssel}
 
-- Ghost, KeystoneJS, ApostropheCMS, Strapi, Siberian CMS
-- Install CMS
-- Run CMS
-- Configure and management
-- Deploy
+- Felhasználó kezelő modul
+  - Bejelentkező űrlap¹
+  - Regisztrációs űrlap¹
+  - Felhasználói profil szerkesztő¹
+- Funkcionális modul¹
+  - Rendszerelemek, komponensek azonosítása
+  - Komponensek tervezése
+  - Komponenstesztek tervezése
+  - Komponensek fejlesztése
+  - Komponensek tesztelése
+- Elkészült rendszer tesztelése
+- Elkészült rendszer közzététele
 
-#### 4.9. Webszerverek üzemeltetési kérdései
+  {¹ tervezése és fejlesztése}
 
-- Forever, PM2. Statikus webszerverek, Serve static files. http-server, VuePress.
+### Mérföldkövek
 
-### 5. Adatbáziskezelés
-
-#### 5.1. Áttekintés
-
-- Kapcsolódás NoSQL és SQL adatbázisokhoz (NeDB, MongoDB, SQLite, MySQL, PostgreSQL...).
-
-#### 5.2 NoSQL adatbázisok speciális kérdései
-
-- Kulcs-érték adatbázisok
-- Gráf adatbázisok
-- Dokumentumtárolók (NeDB, MongoDB, ...)
-- Objektum-adatbázisok
-
-### 6. WEB API-k
-
-#### 6.1 OAuth 2.0
-
-#### 6.2 Google API-k
-
-#### 6.3. Egyéb API-k
-
-### 7. Full-stack alkalmazásfejlesztés
-
-- Webes alkalmazások felépítése, működési elve, kliens és szerver oldal, RESTful API-k, axios.
-- Vue UI-k ( Bootstrap-VUE, Semantic, Vuetify, ... ), VUEX, Vue Router.
-- Vue Material Dashboard.
-- Google API-k az alkalmazásfejlesztésben
-  - autentikáció folyamata (vue-google-oauth2)
-  - Google analitics (vue-analitics)
-- Cloud platormok ( HEROKU, Firebase, ... ).
-- Komplex skálázható webes rendszerek, webes kommunikációs interfészek ( ws, sse ).
-- Esemény-alapú kliens-szerver kommunikáció (socket.io).
-- Platformfüggetlen alkalmazásfejlesztés (NW.js, ElectronJS, Cordova, ...).
-- Mobil alkalmazások fejlesztése: accelerometer, GPS, kamera, ... ( NativeScript, ... ).
-- Server side rendering, ( koa-vue-ssr, express-vue, ... ).
-- Starter kitek.
-- Full stack web frameworks ( Basys, NUXT, Quasar ).
-- Webes IOT és beágyazott rendszerek programozása, RPI-GPIO.
-
-[![RapidAPI](https://rapidapi.com/static-assets/default/logo.svg)](https://rapidapi.com/)
-
-## Gyakorlási lehetőségek, hasznos linkek
-
-- [Példaprogramok](/examples/webexamples/)
+1. GIT/VSCode beállítása, használata + HTML/CSS
+2. JavaScript nyelv + gyakorlat
+3. JavaScript programozás + gyakorlat
+4. JavaScript szoftverfejlesztés, keretrendszerek
