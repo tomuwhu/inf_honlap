@@ -11,15 +11,16 @@
 - aszimptotikus jelölések
 - helyesség
 - algoritmus megadási módszerek
+- Eratoszthenész szitája
 
 ### Rendezési algoritmusok
 
 - beszúró rendezés
 - buborékrendezés
 - rendezés lineáris időben
-- _öszefésülő rendezés_
-- _gyorsrendezés_
-- _kupacrendezés_
+- _öszefésülő rendezés_ (később)
+- _gyorsrendezés_ (később)
+- _kupacrendezés_ (később)
   
 ### Elemi adatszerkezetek
 
@@ -39,16 +40,26 @@
 - függvényhívás folyamata
 - rekurzió
 - rekurzió memorizálása
-- oszd meg és uralkodj
+- n!, fibonacci sorozat elemeinek kiszámítása rekurzívan
+- oszd meg és uralkodj, öszefésülő rendezés
 
 ### Fejlett adatszerkezetek és kapcsolódó problémák
 
 - hasítótáblázatok
 - bináris fa, általános fa
+  - fa megadása, tárolása
+  - apa, gyrekek elérése
 - bináris keresőfa, általános keresőfa
+  - keresés bináris keresőfában
+  - elem beszúrása
+  - elem törlése
+  - forgatás adott pont körül
+  - 2-3 fa
+  - általános keresőfa
 - véletlen építésű bináris keresőfa
+- teljes bináris fa, majdnem teljes bináris keresőfa építése
 - intervallumfák
-- bináris kupac
+- bináris kupac, prioritási sor adatszerkezet készítése, kupacrendezés
 - gráfok, irányított gráfok, súlyozott gráfok, gráfok tulajdonságai
   - pontok, élek, hurokél, izolált pont, párhuzamos élek, út, kör
   - teljes gráf
@@ -56,26 +67,38 @@
   - erősen összefüggő komponensek irányított gráfban
   - élek osztályozása irányított gráfban
   - fokszámeloszlás
+  - véletlengráf-modellek, gráftípusok
+    - Erdős-Rényi modell
+    - Barabási–Albert-modell
   - feszítőfák
   - legrövidebb utak
   - A königsbergi hidak problémája, Euler-kör, Euler feltétel
   - Hamilton-kör, Pósa-feltétel
+- gráf megadása
+  - szomszédsági lista
+  - szomszédsági mátrix
+  - csomópont objektum
+- szomszédok elérése, séták
 - gráfok szélességi bejárása
+- gráfséták, PageRank algoritmus
 - számított gráf problémák, öntögetős játék
 - Dijkstra algoritmus
 - Diszjunkt halmazok láncolt listás ábrázolása
 - Kruskal algoritmus, diszjunkt-halmaz erdő
 - Prim algoritmus
-- hálózati folyamok, FordésFulkersonalgoritmusa
-- párosítási problémák, maximális párosítás, magyar módszer
-- gráfok színezése
+- hálózati folyamok, Ford és Fulkersona lgoritmusa
+- páros gráfok, párosítási problémák
+  - stabil párosítás, Gale–Shapley algoritmus
+  - maximális párosítás, „Magyar módszer”
+- gráfcimkézés, gráfok színezése
 
 ### Rekurzióval megoldható problémák
 
-- n!, fibonacci, euklideszi algoritmus
+- euklideszi algoritmus
 - rekurzív ciklus
 - hanoi tornyai
 - aknakereső játék
+- gyorsrendezés
 - bináris fák bejárása (preorder, inorder)
 - gráf mélységi bejárása
 - mélységi keresés gráfban
@@ -84,6 +107,7 @@
   - erősen összefüggő komponensek
 - optimális pénzváltás, mohó stratégia
 - hátizsák probléma, töredékes hátizsák
+- optimális bináris keresőfa építése
 
 ### Dinamikus programozás
 
@@ -92,7 +116,7 @@
 - palindróma probléma
 - hátizsák probléma
 - optimális bináris keresőfa
-- [Damerau-Levenstein távolság, Wagner–Fischer algoritmus, hasonlósági érték](https://www.codeproject.com/Articles/5342019/An-Optimal-Wagner-Fischer-Algorithm-For-Approximat)
+- [Damerau-Levenstein távolság, Wagner–Fischer algoritmus, hasonlósági mérték](https://www.codeproject.com/Articles/5342019/An-Optimal-Wagner-Fischer-Algorithm-For-Approximat)
 - _Floyd–Warshall-algoritmus_
 
 ### Komplex témakörök
