@@ -74,13 +74,13 @@
 ### Végzettségek
 
 - [Szegedi Tudományegyetem - Természettudományi és Informatikai Kar](http://www.sci.u-szeged.hu/)
-  - PhD. (Matematikai Tudományok, 2015.)
+  - PhD. (Informatikatudomány,2014.)
   - SZTE Informatika Doktori Program (2009-2010)
   - Matematika és Számítástudomány Doktori Program (2007-2008)
   - Okleveles Informatika Szakos Tanár (2006.)
   - Programozó Matematikus (2006.)
 - [Friedrich Alexander Universität (Erlangen, Nürnberg)](https://www.fau.de/)
-  - Számítástudomány Doktori Program (2009.)
+  - Számítástudomány Doktori Program (2009., PhD Matematikai Tudományok)
 - [Neumann János Egyetem, Kecskemét](https://gamf.uni-neumann.hu/)
   - Műszaki Tanár (1996.)
   - Gépészmérnök (Gépipari Automatizálás, 1994.)
