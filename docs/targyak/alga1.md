@@ -162,12 +162,12 @@ Gyakorlati feladattípus a vizsgaidőszak első hetének végéig javítható.
 
 A kollokviumra el kell készíteni a Kollokvium-feladatot, melyre 2 pont szerezhető.
 
-_Szóbeli vizsga_:
-A vizsgáztató kérdései adott válaszok alapján -2 pont, -1 pont, 0 pont, 1 pont, vagy 2 pont szerezhető.
-A vuzsgán szóbeli kérdések, tételek, bizonyítások és papiron/táblán kódolási feladatok, valamint algoritmusok végrehajtása fejben/papiron adott inputra várhatók.
-
 _Megajánlott jegy_:
-Az összpontszám alapján kérhető a vizsgajegy kiszámítása, ilyenkor a szóbeli vizsga pontszámának 0 pont kerül beszámításra.
+Az összpontszám alapján (minimum 7 pont esetén) kérhető a vizsgajegy megajánlása, ilyenkor a szóbeli vizsga pontszámának 0 pont kerül beszámításra.
+
+_Szóbeli vizsga_:
+A szóbeli vizsgán a vizsgáztató kérdéseire adott válaszok alapján -2..2 pont szerezhető.
+A vizsgán szóbeli kérdések, tételek, bizonyítások és kódolási feladatok (papiron/táblán/számítógépen), valamint algoritmusok végrehajtása adott inputra (fejben/papiron/táblán) várhatók.
 
 _Kollokvium összpontszáma_:
 [gyakorlati összpontszám] + [kollokvium feladat pontszáma] + [szóbeli vizsga pontszáma]
@@ -176,11 +176,11 @@ _Kollokvium összpontszáma_:
 
 | Kollokvium összpontszáma | Kollokvium jegy |
 | ------:| :------- |
-| 10..12 pont | jeles |
-| 9 pont | jó |
-| 8 pont | közepes |
-| 7 pont | elégséges |
-| -2..6 pont | elégtelen |
+| 11..12 pont | jeles |
+| 9..10 pont | jó |
+| 7..8 pont | közepes |
+| 5..6 pont | elégséges |
+| -2..4 pont | elégtelen |
 
 _Kollokvium jegy javítása_:
 
