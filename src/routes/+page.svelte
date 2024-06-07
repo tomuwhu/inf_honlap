@@ -125,8 +125,7 @@
 
     </div>
     <div class=fd>
-            Utosló frissítés: {buildDate.split("T")[0]}
-            {buildDate.split("T")[1].split(".")[0]}
+            Utosló frissítés: {buildDate}
     </div>
 {/if}
 <style>

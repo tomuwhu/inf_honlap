@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const buildDate = new Date().toISOString();
+const buildDate = (new Date()).toLocaleString('hu-HU', { timeZone: 'Europe/Budapest' });
 
 const content = `export const buildDate = '${buildDate}';`;
 
