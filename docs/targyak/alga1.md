@@ -1,5 +1,8 @@
 # Algoritmusok és adatszerkezetek I.
 
+[Tankönyv](https://gyakg.es6.eu/irodalom/algasz.pdf)
+[Tananyag (előadás + gyakorlat videók)](https://www.inf.u-szeged.hu/~ggabor/alga1/)
+
 ## Tematika
 
 ### Alapfogalmak
