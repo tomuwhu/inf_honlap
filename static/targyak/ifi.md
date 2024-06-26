@@ -1,6 +1,8 @@
-# Intelligens felhasználói interfészek
+# Intelligens felhasználói interfészek - SvelteKit
 
-## Bash
+## Előismereti feltételek
+
+### Bash
 
 - Fájltendszer, könyvtárstruktúra
   - fájltípusok, kiterjesztések
@@ -21,7 +23,7 @@
   - set PATH=%PATH%;C:/php
 - Környezeti változók
 
-## Github
+### Github
 
 - github regisztráció
 - git telepítés
@@ -34,7 +36,7 @@
 - Domain beállítások
 - Adatvédelmi tudnivalók, GitGuardian
 
-## [VSCode](https://code.visualstudio.com/) használata
+### [VSCode](https://code.visualstudio.com/) használata
 
 - kód bevitel
 - UTF-8, Szimbólumok
@@ -47,9 +49,8 @@
   - Markdown All in One
   - IntelliCode/Codeium
   - Svelte preview
-- Svelte counter példaalkalmazás
 
-## HTML/CSS/Markdown/SVG/JS ismétlés
+### HTML/CSS/Markdown/SVG/JS ismétlés
 
 - [Markdown](https://www.markdownguide.org/basic-syntax/)
 - HTML objektumok, attribútumok, szelektorok
@@ -79,131 +80,8 @@
   - animation
   - @keyframes
 - SCSS/SASS
-- JavaScript online editor
-  - [Vanilla](https://playcode.io/javascript)
-  - [JQuery](https://playcode.io/jquery)
-  - [React](https://playcode.io/react)
-  - [Vue](https://playcode.io/vue)
-  - [Svelte](https://playcode.io/svelte)
 
-## JavaScript/TypeScript/Svelte/Vue (Browser)
-
-- JavaScript megjelenítés
-  - Browser DevTools: elemek, vizsgálat, konzol, források
-  - window, document objects, DOM
-  - getElementById, querySelectorAll()
-  - element attribútumok (id, class, draggable, ...)
-  - \<script src='...'\>, \<script type="module" src="./main.js"></script>
-  - _SVELTE {}, bind:value, ..._
-  - _VUE API Styles_
-- Eseménykezelés __~Függvények__
-  - böngésző események
-  - onclick, keydown, keyup, onmousemove, onmouseout, ...
-  - oncontextmenu="return false"
-  - eseménybuborékozás, event.stopPropagation()
-  - oninput, onchange, dragstart, dragover, drop...
-  - _SVELTE, VUE Binding bind:value, :value_
-  - _SVELTE események (on:click, on:dragstart, ...)_
-  - _VUE események (@click, @dragstart, :value, ...)_
-- Szintaxis
-  - Értékek, típusok (számok, szöveg)
-  - Változók, definiálás, értékadás
-  - _SVELTE var, let, const_
-  - _SVELTE számított értékek: $: ௐ_
-  - _VUE reactive, computed_
-  - JavaScript / TypeScript
-    - alap típusok: string, number, boolean
-    - bigint, symbol, object, funtion, any
-  - Kulcsszavak
-  - Kommentek: //, /⁕ &lt;!-- ண -->
-  - Operátorok, kifejezések, precedencia
-  - String függvények, template
-  - Feltételes értékadás: ண ? ண : ண
-- Függvények
-  - function f() {}
-  - f = (...) => { ... ; return ௐ}
-  - f = ௐ => ண
-  - alapértelmezett érték
-  - objektum paraméter
-  - get, set
-  - beépített függvények
-  - generátorfüggvények, yield, yield*
-- Tömbök (listák)
-  - Lista létrehozása
-  - Elem hozzáadása, adott elem kiválasztása
-  - Elem törlése, adott elem keresése
-  - Szűrés, rendezés, elemek módosítása
-- Utasítások
-  - if, elseif, else, switch...case
-  - for, .forEach(ண), .map(ண), ...
-  - _SVELTE_
-    - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
-    - _{#each ஃ as obj, index (key)} ... {:else} ... {/each}_
-    - _{#each items as { id, name, qty }, i (id)} ... {/each}_
-    - _{#await expression}...{:then name}...{:catch name}...{/await}_
-    - _{#key expression}...{/key}_
-  - _VUE: v-if, v-for, ..._
-  - body onload()
-  - _SVELTE, VUE: onMount(), onMounted_
-  - try...catch
-- Objektumok
-  - jellemzők
-  - metódusok
-- Osztályok
-  - jellemzők (property - tulajdon)
-  - private, public
-  - metódusok (method - módszer)
-  - constructor
-  - extends, static
-  - példányosítás, new (instance - eset)
-  - statikus metódusok
-  - statikus jellemzők
-- Beépített osztályok
-  - Math
-    - E, LN10, LN2, LOG10E, LOG2E, PI, SQRT1_2, SQRT2
-    - abs, sin, cos, asin, acos, ceil, trunc, floor, round
-    - sin, cos, exp, sgn, sqrt, log, log2, log10
-    - max, min, pow, random
-  - Object
-    - Constructor
-    - Static methods
-    - Instance methods
-  - Array
-    - length
-    - fill, every, join, keys, values, push, pop, *shift*, *unshift*
-    - splice, toSpliced, reverse, toReversed
-    - forEach, map, filter, sort, toSorted
-  - Set
-    - size
-    - add, delete, has, keys (values), forEach, clear
-    - union, intersection, symmetricDifference
-  - Map, WeakMap
-    - size
-    - set, has, gat, delete, forEach, keys, values, clear
-  - String
-    - Instance methods and propery
-  - Date
-  - eval()
-  - JSON
-  - RegExp
-  - Promise
-  - FormData
-  - Screen
-- Beépített objektumok
-  - document
-    - getElementById
-    - createElement
-    - querySelectorAll
-  - cookieStore
-- Browser DevTools: Alkalmazás
-  - Helyi tárhely (localStorage)
-  - Cookie-k
-  - IndexedDB
-  - ReadableStream
-- TypeScript: interface, implements, private, protected, \<T>
-- [JavaScript referencia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-
-## JavaScript fogások
+### JavaScript fogások
 
 - String template, Filterprefix
 - Array (map, forEach, fill, sort, filter, reduce)
@@ -222,17 +100,6 @@
 - RegExp
 - DOMParser
 - Modulok, CDN
-  - [jQuery](https://jquery.com/)
-  - [Axios](https://axios-http.com/docs/intro), RestAPI
-  - [Google Sheets Parser](https://www.npmjs.com/package/public-google-sheets-parser)
-  - [Socket.io<sup>*</sup>](https://socket.io/)
-  - [levenshtein](https://github.com/gf3/Levenshtein)
-  - [marked](https://marked.js.org/)
-  - [highlight.js](https://highlightjs.org/) v. [prism.js](https://prismjs.com/)
-  - [Chart.js](https://www.chartjs.org/) v. [vis.js](https://visjs.org/)
-- Browser Alkalmazás
-  - Helyi tárhey (localStorage, sessionStorage)
-  - Firefox: Svelte Dev Tools
 - FrontEnd technológiák, fogások
   - JS => HTML Táblázat generálása
     - Table, Flex, Grid
@@ -255,48 +122,37 @@
     - SVG objektumok mozgatása
     - Egyenes vonalú egyenletes mozgás, sebességvektor
     - Gyorsulás, Lassulás, Gravitáció
-    - Ütközésdetektálás
-    - Lendületmegmaradás törvénye és alkalmazása
-  - HTML, CSS, JS Játékok készítése
   - Design fogások
     - BootStrap
 
-## HTML/CSS/JS Mobile
+### BackEnd alapok
 
-- viewport
-- @media
-- inspect
-- device toolbar
-- touchstart, touchend, touchmove, touchcancel események
-- dragndrop speciális tulajdonságok
-- navigator.geolocation
-- DeviceOrientationEvent
-- DeviceMotionEvent
-  - acceleration, accelerationIncludingGravity
-  - interval
-  - rotationRate
+- Cookie-k
+- Kommunikációs protokollok:
+  - REST API (GET, POST, PUT, PATCH, DELETE)
+  - Server Side Enents (SSE)
+  - WebSocket (Socket.io)
+  - WebRTC (PeerJS)
+- Postman alkalmazás telepítése, használata
+- MongoDB - Atlas
+- MySQL - Aiven
+- ExpressJS, mysql2, mysql2-async integráció
+- Unit teszt, integrációs tesztelés, rendszertesztelés
+- Hash-elés, ujjlenyomat-módszer (MD5, SHA256, ...)
+- Titkosítás (egykulcsos, két kulcsos, nyivános kulcsú), RSA Algoritmus
+- Tanúsítvány, digitális aláírás, certificate
+- Authentikáció, hozzáférés-szabályozási token
+- Külső hitelesítés, OAUTH2.0, kulcskarika
+- Hitelesítési adatok tárolása: környezeti változók
 
-## JQuery, JQuery UI
+### Hosting
 
-- HTML
-- JavaScript
-- Options
-- Metódusok
-- Események
-- Styílusok
-- Interakciók
-- Widgetek
-- Effektek
-- Eszközök
+- *Hosting: [Netlify](https://www.netlify.com/)*
+- *[Aiven for MySQL](https://aiven.io/mysql): mysql2-async*
 
-## JQuery Mobile
+## Tematika
 
-- ThemeRoller
-- Eszközök
-
-## NodeJS frontend
-
-## [Svelte](https://svelte.dev/docs/introduction)
+### [Svelte](https://svelte.dev/docs/introduction)
 
 - [Tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
 - [Examples, Játszótér](https://svelte.dev/examples/hello-world)
@@ -317,7 +173,7 @@
 - Svelte Store
 - Motion, Transition, Animation
 
-## [SvelteUI](https://svelteui.dev/theming/dark-theme)
+### [SvelteUI](https://svelteui.dev/theming/dark-theme) / [Flowbite Svelte](https://flowbite-svelte.com/)
 
 - Telepítés
 - Funkciók
@@ -325,29 +181,48 @@
 - Tartalom
 - Űrlapok
 - Komponensek
+- Egyéb UI könyvtárak
+  - [SVELTESTRAP](https://sveltestrap.js.org/?path=/docs/sveltestrap-overview--docs)
+  - [Svelte Material UI](https://sveltematerialui.com/)
+  - [Svelte Headless UI](https://svelte-headlessui.goss.io/docs/2.0)
+  - [Attractions](https://illright.github.io/attractions/)
 
-## Full-stack multiplatform alkalmazás fejlesztése (SvelteKit - SQLite)
+### *[Vite](https://vitejs.dev/guide/), [SvelteKit](https://kit.svelte.dev/docs/introduction)*
 
-  {Tárgyak közötti együttműködéssel}
-
-- Felhasználó kezelő modul
-  - Bejelentkező űrlap¹
-  - Regisztrációs űrlap¹
-  - Felhasználói profil szerkesztő¹
-- Funkcionális modul¹
-  - Rendszerelemek, komponensek azonosítása
-  - Komponensek tervezése
-  - Komponenstesztek tervezése
-  - Komponensek fejlesztése
-  - Komponensek tesztelése
-- Elkészült rendszer tesztelése
-- Elkészült rendszer közzététele
-
-  {¹ tervezése és fejlesztése}
-
-### Mérföldkövek
-
-1. GIT/VSCode beállítása, használata + HTML/CSS
-2. JavaScript nyelv + gyakorlat
-3. JavaScript programozás + gyakorlat
-4. JavaScript szoftverfejlesztés, keretrendszerek
+- Development server: VITE
+  - dev server
+  - build
+  - vite.config.ts
+    - plugins
+    - rollupOptions
+    - build.chunkSizeWarningLimit
+- sass: rollup.config, prettierrc
+- TypeScript
+  - Types
+  - Classes
+  - Templates
+- Vite technológiák:
+  - Vanilla
+  - React
+  - Vue
+  - Svelte
+    - [tutorial](https://learn.svelte.dev/tutorial/introducing-sveltekit)
+    - npm create svelte@latest
+    - adapter-static, .nojekyll, svelte.config, {basedir}
+    - routes
+    - onMount
+    - komponensek
+    - MVC alkalmazások fejlesztése
+    - [SvelteKit FullStack Framework](https://kit.svelte.dev/docs/introduction)
+      - routing
+      - loading data
+      - form actions
+      - page options
+      - state management, store
+      - hooks
+      - building, static site generation
+      - deploying: *Netlify*
+        - Build & Deploy: adapter-netlify
+        - Enviroment variables on netlify
+    - *Hosting: [Netlify](https://www.netlify.com/)*
+    - *[Aiven for MySQL](https://aiven.io/mysql): mysql2-async*
