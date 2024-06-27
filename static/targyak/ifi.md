@@ -225,7 +225,7 @@
         - Build & Deploy: adapter-netlify
         - Enviroment variables on netlify
     - *Hosting: [Netlify](https://www.netlify.com/)*
-    - *[MongoDB Atlas](https://www.mongodb.com/de-de/atlas)*
+    - *[MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)*
     - *[Aiven for MySQL](https://aiven.io/mysql): mysql2-async*
 
 ## Számonkérés
