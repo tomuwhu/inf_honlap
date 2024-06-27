@@ -226,3 +226,7 @@
         - Enviroment variables on netlify
     - *Hosting: [Netlify](https://www.netlify.com/)*
     - *[Aiven for MySQL](https://aiven.io/mysql): mysql2-async*
+
+## Számonkérés
+
+Portfólió alapú számonkérés, hallgatói projekt értékelése.
