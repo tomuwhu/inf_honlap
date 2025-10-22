@@ -28,9 +28,11 @@
   - Intézetvezető helyettes - oktatási ügyek (2014-2017)
   - tanársegéd (2011.01.01. - 2014.12.31.) _(főállás)_
   - demonstrátor (2008.09.01. - 2010.12.31.) _(részmunkaidő)_
+- [Tisza-parti Általános Iskola](https://www.tiszaparti.hu/)
+  - tanár (2025-) _(részmunkaidő)_
 - [School of Business Technikum](http://sobszeged.hu/)
-  - **oktató (2023-tól jelenleg) _(részmunkaidő)_**
-- [Gyakorló Gimnázium](http://www.gyakg.u-szeged.hu/sagvari/)
+  - oktató (2023-2025) _(részmunkaidő)_
+- [SZTE Báthory István Gyakorló Gimnázium](http://www.gyakg.u-szeged.hu/sagvari/)
   - gimnáziumi tanár (2021-2024) _(részmunkaidő)_
 - [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) 
   - gimnáziumi tanár (2001-2005, 2019-2020) _(részmunkaidő)_
