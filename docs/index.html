@@ -78,5 +78,11 @@
 			</script>
 		</div>
 </body>
-
+<script>
+	setTimeout(() => {
+		document.querySelectorAll('.svelteui-c-ihkWr').forEach((block) => {
+			block.innerHTML = block.innerHTML.replace('Árpád tér 2. 42-es szoba.', 'Irinyi épület 70-es szoba')	
+		},1000);
+	}, 0);
+</script>
 </html>

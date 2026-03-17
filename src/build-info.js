@@ -1,1 +1,1 @@
-export const buildDate = '2024. 06. 27. 9:21:45';
+export const buildDate = '2026. 03. 17. 11:41:15';

@@ -78,7 +78,9 @@
                     <Title css={{ fontSize: '24px' }}>Dr. Németh Tamás</Title>
                     <Text css={{ fontSize: '13px', color: 'gray' }}>egyetemi adjunktus - SZTE TTIK</Text>
                     <Space h="lg" />
-                    <Text>Árpád tér 2. 42-es szoba. <nobr>Tel.: +36 (62) 343-435</nobr></Text>
+                    <Text css={{ fontSize: '13px', color: 'gray' }}><a href="https://inf.u-szeged.hu/fcs" target="_blank">Számítástudomány Alapjai Tanszék</a></Text>
+                    <Text css={{ fontSize: '13px', color: 'gray' }}>Szeged, Tisza Lajos krt. 103. (Irinyi Épület, 70-es szoba)</Text>
+                    <Text>SZTE TTIK Irinyi Épület, Tisza Lajos körút, 103, Szeged 70-es szoba. <nobr>Tel.: +36 (62) 343-435</nobr></Text>
                 </Box>
             </Flex>
         </Tabs.Tab>
